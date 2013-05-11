@@ -2,8 +2,8 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
+url: http://distributedlife.github.io/magazine_style
+title: Magazone Style
 subtitle: A blogging framework for hackers.
 author: Your Name
 simple_search: http://google.com/search
