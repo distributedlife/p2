@@ -1,0 +1,15 @@
+<aside class="author-column clearfix">
+   {% for person in model.people %}
+      <a href="#">
+         <img class="author-avatar" src="assets/img/{{ person.avatar }}"/>
+         <!-- TODO: Author Plus interviewee -->
+         <!-- TODO: Flip animation? -->
+     </a>
+   {% endfor %}
+   <ul class="author">
+   {% for person in model.people %}
+      <li>{{ person.name }}
+      <li><a href="http://twitter.com/{{ person.twitter }}">{{ person.twitter }}</a> 
+   {% endfor %}
+   </ul>
+</aside>

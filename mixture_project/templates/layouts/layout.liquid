@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <meta name="description" content="Test">
+        <title>{% block title %}Mixture + Sassaparilla{% endblock %}</title>
+        <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+        {{ "screen.css" | asset_url | stylesheet_tag }}
+        <script src="http://modernizr.com/downloads/modernizr-2.5.3.js"></script>
+    </head>
+    <body class="wrapper">
+        {% block content %} {% endblock %}
+    </body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined') {
+            document.write(unescape("%3Cscript src='assets/js/jquery-1.8.2.min.js' type='text/javascript'%3E%3C/script%3E"));
+        }
+    </script>
+    <!-- http://hashgrid.com/ if you so please
+    {{ "/js/hashgrid.js" | asset_url | script_tag }}
+    -->
+    {{ "script.js" | asset_url | script_tag }}
+</html>
