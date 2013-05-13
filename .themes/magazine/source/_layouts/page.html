@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div>
+<article role="article">
+  
+  {{ asides/author.html }}
+
+  {% if page.title %}
+
+    <header>
+      {% if page.date %}<date>{% include post/date.html %}{{ time }}</date>{% endif %>
+      <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+      <h3>Need to create a custom {post.precede}</h3>
+    </header>
+
+  {% endif %}
+
+  <div class="article-body">{{ content }}</div>
+  <footer>
+
+    {% if page.categories %}
+      {% include post/categories.html %}
+    {% endif %}
+
+    {% unless page.sharing == false %}
+      {% include post/sharing.html %}
+    {% endunless %}
+
+  </footer>
+</article>
