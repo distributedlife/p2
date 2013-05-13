@@ -10,7 +10,7 @@ layout: default
   {% if page.title %}
 
     <header>
-      {% if page.date %}<date>{% include post/date.html %}{{ time }}</date>{% endif %>
+      {% if page.date %}<date>{% include post/date.html %}{{ time }}</date>{% endif %}
       <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
       <h3>Need to create a custom {post.precede}</h3>
     </header>
