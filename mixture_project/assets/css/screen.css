@@ -377,6 +377,11 @@ body bi {
   float: none;
   max-width: 3em;
 }
+.table-of-contents .article-number {
+  font-family: "Roboto Slab", serif;
+  font-style: italic;
+  font-size: 36px;
+}
 .table-of-contents .summary {
   display: block;
   padding: 0px 0 20px 0;
@@ -508,14 +513,21 @@ article footer img {
     text-align: left;
   }
   .table-of-contents .summary {
-    margin-right: 5.625em;
+    margin-left: 7em;
   }
   .table-of-contents .author-avatar {
+    display: none;
     position: absolute;
     right: 0;
     top: 50%;
     width: 100%;
     margin-top: -2.25em;
+  }
+  .table-of-contents .article-number {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 4em;
   }
 
   .cover {

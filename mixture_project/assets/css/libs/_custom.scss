@@ -82,6 +82,11 @@ body{
 		float: none;
 		max-width: em-font(48px);
 	}
+	.article-number{
+		font-family: "Roboto Slab", serif;
+		font-style: italic;
+		font-size: 36px;
+	}
 	.summary{
 
 		display: block;
@@ -217,17 +222,25 @@ article footer{
 			text-align: left;
 		}
 		.summary{
-			margin-right: em-font(90px);
+			margin-left: em-font(112px);
 		}
 
 		margin-left: em-font(190px);
 
 		.author-avatar{
+			display: none;
 			position: absolute;
 			right: 0;
 			top: 50%;
 			width: 100%;
 			margin-top: em-font(-36px);
+			// max-width: em-font(72px);
+		}
+		.article-number{
+			position: absolute;
+			left: 0;
+			top: 0;
+			font-size: em-font(64px);
 			// max-width: em-font(72px);
 		}
 	}
