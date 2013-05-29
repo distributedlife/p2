@@ -337,6 +337,10 @@ body bi {
   margin-left: -12080px;
 }
 
+.issue-notes {
+  border-bottom: 1px #e6e6e6 solid;
+}
+
 .issues {
   background: white;
   padding: 20px 0 0 0;
@@ -377,10 +381,10 @@ body bi {
   display: block;
   padding: 0px 0 20px 0;
 }
-.table-of-contents .summary h2, .table-of-contents .summary p {
+.table-of-contents .summary h3, .table-of-contents .summary p {
   margin: 0.3333333em 0 0.3333333em 0;
 }
-.table-of-contents .summary h2 a, .table-of-contents .summary p a {
+.table-of-contents .summary h3 a, .table-of-contents .summary p a {
   text-decoration: none;
 }
 
@@ -503,8 +507,8 @@ article footer img {
     position: relative;
     text-align: left;
   }
-  .table-of-contents article .summary {
-    margin-right: 120px;
+  .table-of-contents .summary {
+    margin-right: 5.625em;
   }
   .table-of-contents .author-avatar {
     position: absolute;
@@ -512,7 +516,6 @@ article footer img {
     top: 50%;
     width: 100%;
     margin-top: -2.25em;
-    max-width: 4.5em;
   }
 
   .cover {
@@ -595,18 +598,7 @@ article footer img {
 }
 @media screen and (min-width: 64em) {
   .container {
-    width: 57.25em;
-  }
-
-  .article-body {
-    -webkit-columns: 1.875em 2;
-    -moz-columns: 1.875em 2;
-    columns: 1.875em 2;
-  }
-  .article-body p {
-    -webkit-column-break-inside: avoid;
-    -moz-column-break-inside: avoid;
-    -column-break-inside: avoid;
+    width: 48em;
   }
 }
 @media screen and (min-width: 76.25em) {

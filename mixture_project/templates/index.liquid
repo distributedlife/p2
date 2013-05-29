@@ -1,15 +1,18 @@
 {% block content %}
 	<section class="table-of-contents">
-		<header class="cover">
-			
-		</header>
+		<header class="cover"></header>
 		{% include "issues" %}
+		<section class="issue-notes">
+			<h1>Letter from the Editor</h1>
+			<p>'Talking of axes,' said the Duchess, 'chop off her head!'</p>
+			<p>Alice glanced rather anxiously at the cook, to see if she meant to take  the hint; but the cook was busily stirring the soup, and seemed not to  be listening, so she went on again: 'Twenty-four hours, I THINK; or is  it twelve? I&mdash;'</p>
+			<p>'Oh, don't bother ME,' said the Duchess; 'I never could abide figures!'  And with that she began nursing her child again, singing a sort of  lullaby to it as she did so, and giving it a violent shake at the end of  every line:</p>
+		</section>
 		{% for article in model.articles %}
 			<article>
-            	<img class="author-avatar" src="assets/img/{{ article.icon }}"/>
-            	<div class="summary">
-					<h2 class="title"><a href="/article">{{ article.title }}</a></h2>
-					<p class="subtitle"><a href="/article">{{ article.subtitle }}</a></p>
+				<img class="author-avatar" src="assets/img/{{ article.icon }}"/>            	
+				<div class="summary">
+					<h3 class="title"><a href="/article">{{ article.title }}</a></h3>
 					<a href="#" class="author">by {{ article.author.name }}</a>
 				</div>
 			</article>

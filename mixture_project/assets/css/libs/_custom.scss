@@ -39,6 +39,9 @@ body{
 	width: 0;
 	margin-left: -12080px;
 }
+.issue-notes{
+	border-bottom: 1px lighten($primary, 50%) solid;
+}
 .issues {
 	background: white;
 	padding: 20px 0 0 0;
@@ -84,7 +87,7 @@ body{
 		display: block;
 		padding: 0px 0 20px 0;
 
-		h2, p{
+		h3, p{
 
 			margin: rhythm(1, 24px) 0 rhythm(1, 24px) 0;  
 
@@ -213,9 +216,8 @@ article footer{
 			position: relative;
 			text-align: left;
 		}
-
-		article .summary{
-			margin-right: 120px;
+		.summary{
+			margin-right: em-font(90px);
 		}
 
 		margin-left: em-font(190px);
@@ -226,7 +228,7 @@ article footer{
 			top: 50%;
 			width: 100%;
 			margin-top: em-font(-36px);
-			max-width: em-font(72px);
+			// max-width: em-font(72px);
 		}
 	}
 	.cover{
@@ -292,13 +294,7 @@ article footer{
 // Eg for 1024px
 @media screen and (min-width: em-font(1024px)) {
 	.container {
-		width: em-font(916px);
-	}
-	.article-body{
-		@include columns(em-font(30px), 2);
-		p{
-			@include column-break(avoid);
-		}
+		width: em-font(768px);
 	}
 }
 @media screen and (min-width: em-font(1220px)) {
