@@ -1,3 +1,18 @@
 {% block content %}
- 	{% include "article" %}
+	<section class="table-of-contents">
+		<header class="cover">
+			
+		</header>
+		{% include "issues" %}
+		{% for article in model.articles %}
+			<article>
+            	<img class="author-avatar" src="assets/img/{{ article.icon }}"/>
+            	<div class="summary">
+					<h2 class="title"><a href="/article">{{ article.title }}</a></h2>
+					<p class="subtitle"><a href="/article">{{ article.subtitle }}</a></p>
+					<a href="#" class="author">by {{ article.author.name }}</a>
+				</div>
+			</article>
+		{% endfor %}
+	</section>
 {% endblock %}

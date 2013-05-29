@@ -1,6 +1,6 @@
 # Require any additional compass plugins here.
 # -----------------------------------------------------------------------------
-project_path = "/Users/acarr/Dropbox/Code/workspace/magazine_style/mixture_project/"
+project_path = "/Users/acarr/Dropbox/Code/workspace/magazine_mix/"
 
 
 # Set this to the root of your project when deployed:

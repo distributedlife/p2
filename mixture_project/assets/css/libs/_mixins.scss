@@ -59,6 +59,11 @@
 	   -moz-column-break-inside: $method;
 	       -column-break-inside: $method;
 }
+@mixin border-radius($top, $right, $bottom, $left){
+	-webkit-border-radius: $top $right $bottom $left;
+	   -moz-border-radius: $top $right $bottom $left;
+		    border-radius: $top $right $bottom $left;
+}
 
 
 // Advanced typography settings

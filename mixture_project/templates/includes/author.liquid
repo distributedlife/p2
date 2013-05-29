@@ -1,15 +1,13 @@
-<aside class="author-column clearfix">
-   {% for person in model.people %}
-      <a href="#">
-         <img class="author-avatar" src="assets/img/{{ person.avatar }}"/>
-         <!-- TODO: Author Plus interviewee -->
-         <!-- TODO: Flip animation? -->
-     </a>
-   {% endfor %}
-   <ul class="author">
-   {% for person in model.people %}
-      <li>{{ person.name }}
-      <li><a href="http://twitter.com/{{ person.twitter }}">{{ person.twitter }}</a> 
-   {% endfor %}
-   </ul>
+<aside class="left-column clearfix">
+   <div class="author">
+      {% for author in model.authors %}
+      <div>
+         <a href="#">
+            <img class="author-avatar" src="assets/img/{{ author.avatar }}"/>
+         </a>
+         <div>{{ author.name }}</div>
+         <a href="http://twitter.com/{{ author.twitter }}">{{ author.twitter }}</a> 
+      </div>
+      {% endfor %}
+   </div>
 </aside>
