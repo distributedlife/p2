@@ -10,7 +10,7 @@
         <script src="http://modernizr.com/downloads/modernizr-2.5.3.js"></script>
     </head>
     <body class="wrapper">
-        {% if mixture.url == "article" %}
+        {% if mixture.url != "index" %}
             {% include "paginate" %}
         {% endif %}
         <div class="container">
