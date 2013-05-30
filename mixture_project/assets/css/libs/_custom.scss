@@ -85,16 +85,31 @@ body{
 	.article-number{
 		font-family: "Roboto Slab", serif;
 		font-style: italic;
-		font-size: 36px;
-	}
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: em-font(12px);
+    color: #ccc;
+    // max-width: em-font(72px);
+  }
+
 	.summary{
 
 		display: block;
-		padding: 0px 0 20px 0;
+		padding: 0px 0 8px 0;
 
 		h3, p{
 
+      font-size: 12px;
 			margin: rhythm(1, 24px) 0 rhythm(1, 24px) 0;  
+      
+      .title {
+        text-transform: uppercase;
+      }
+      
+      .author {
+        color: #bbb;
+      }
 
 			a{
 				text-decoration: none;
@@ -109,7 +124,7 @@ body{
 	text-align: center;
 
 	.author{
-		padding: em-font(14px);
+		padding: em-font(10px);
 		margin: 0;
 	}
 	.author-avatar{
@@ -222,7 +237,7 @@ article footer{
 			text-align: left;
 		}
 		.summary{
-			margin-left: em-font(112px);
+			margin-left: em-font(36px);
 		}
 
 		margin-left: em-font(190px);
@@ -234,13 +249,6 @@ article footer{
 			top: 50%;
 			width: 100%;
 			margin-top: em-font(-36px);
-			// max-width: em-font(72px);
-		}
-		.article-number{
-			position: absolute;
-			left: 0;
-			top: 0;
-			font-size: em-font(64px);
 			// max-width: em-font(72px);
 		}
 	}
