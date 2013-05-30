@@ -28,7 +28,7 @@ body{
 }
 .cover{
 	@include animation(width, 500ms, ease-in-out);
-	background: #efefef url(../img/treees.jpg) no-repeat center center fixed; 
+	background: #efefef url(../img/issue_1_cover.jpg) no-repeat -500px -140px fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
