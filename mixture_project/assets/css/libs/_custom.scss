@@ -153,6 +153,13 @@ article footer{
 		vertical-align: middle;
 	}
 }
+
+article .byline {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #bbb;
+}
+
 .paginate{
 	opacity: 0;
 	@include animation(all, 500ms, ease);

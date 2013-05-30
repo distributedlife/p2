@@ -440,6 +440,12 @@ article footer img {
   vertical-align: middle;
 }
 
+article .byline {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #bbb;
+}
+
 .paginate {
   opacity: 0;
   -webkit-transition: all 500ms ease;
