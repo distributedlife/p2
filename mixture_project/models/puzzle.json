@@ -16,6 +16,7 @@
   "<pre>public int deliverBusinessValue() {\n  int value = 10;\n    \n    try {\n      value = 20;\n        throw new NotEnoughValueDeliveredException();\n    } catch (Exception e) {\n      value = 30;\n        return value; \n     } finally {\n      value = 50;\n    }\n}\n</pre>",
     "Exhibit A",
     "What is the value of 'value' after this function is executed?",
-    "<pre>class MarketEdge {\n  int value;\n}\n\n  public MarketEdge deliverBusinessValue() {\n    MarketEdge marketEdge = new MarketEdge();\n      try {\n        marketEdge.value = 20;\n          throw new NotEnoughValueDeliveredException();\n      } catch (Exception e) {\n        marketEdge.value = 30;\n          return realised;\n      } finally {\n        marketEdge.value = 50;\n      }\n  }\n\n</pre>"
+    "<pre>class MarketEdge {\n  int value;\n}\n\n  public MarketEdge deliverBusinessValue() {\n    MarketEdge marketEdge = new MarketEdge();\n      try {\n        marketEdge.value = 20;\n          throw new NotEnoughValueDeliveredException();\n      } catch (Exception e) {\n        marketEdge.value = 30;\n          return realised;\n      } finally {\n        marketEdge.value = 50;\n      }\n  }\n\n</pre>",
+      "Send your answers to <a href=\"mailto:p2@thoughtworks.com\">p2@thoughtworks.com</a>"
   ]
 }
