@@ -14,21 +14,16 @@ echo "Restructing, hold tight."
 rm -rf ../converted-html
 cp -R mixture_project/converted-html ..
 
-# rm -rf *
+# Clear out the entire gh-pages repo for replacement
 rm -rf *
 
-# Mv ../converted-html/* .
+# Dump in the exported html
 mv ../converted-html/* .
 
-# Git add .
 git add .
-
-# Git commit -m "Updated"
 git commit -m "$1"
 
 echo "Pushing changes to gh-pages ($1)"
-# Git push origin gh-pages
 git push origin gh-pages
 
-# Get back to the start.
 git checkout "source"
