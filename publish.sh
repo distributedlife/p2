@@ -8,6 +8,7 @@
 # Can we git checkout gh-pages
 git checkout gh-pages
 [ "$(echo $?)" != "0" ] && echo "Can't checkout gh-pages. Close Mixture and git checkout ." && exit 1
+git pull --rebase
 
 # Mv converted-html to ..
 echo "Restructing, hold tight."
