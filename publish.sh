@@ -25,5 +25,6 @@ git commit -m "$1"
 
 echo "Pushing changes to gh-pages ($1)"
 git push origin gh-pages
+[ "$(echo $?)" != "0" ] && echo "Error pushing changes. We're going to stop here while you resolve it." && exit 1
 
 git checkout "source"
