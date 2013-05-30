@@ -14,7 +14,7 @@
       Ryan Boucher, Editor in Chief</p>
 		</section>
     <section class="issue-notes">
-      <h3><a href="#">Start Reading &raquo;</a></h3>
+      <h3><a href="{{ model.articles.first.url }}">Start Reading &raquo;</a></h3>
     </section>
 		{% for article in model.articles %}
 			<article>
