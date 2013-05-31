@@ -21,17 +21,5 @@
     <section class="issue-notes">
       <h3><a href="{{ model.articles.first.url }}">Start Reading &raquo;</a></h3>
     </section>
-		{% for article in model.articles %}
-			<article>
-			<!--<img class="author-avatar" src="assets/img/{{ article.icon }}"/>--> 
-			<span class="article-number">{{ article.number }}.</span>
-				<div class="summary">
-          <p>
-          <a class="title" href="{{ article.url }}">{{ article.title }}</a>
-            <a href="#" class="author"> by {{ article.author.name }}</a>
-          </p>
-				</div>
-			</article>
-		{% endfor %}
 	</section>
 {% endblock %}
