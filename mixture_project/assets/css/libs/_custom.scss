@@ -208,6 +208,37 @@ article .byline {
 	float: left;
 }
 
+#title {
+  color: #fff;
+  font-size: 10em;
+  margin:0;
+  font-weight: bold;
+  line-height: 130px;
+  margin-left: 0.01em;
+  text-align: center
+}
+
+#subtitle {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+#corp {
+  color: #fff;
+  font-size: 1.79em;
+  margin: 0;
+  text-align: center;
+}
+.logo {
+  position: fixed;
+  top: 26px;
+  left: 10px;
+  z-index: 1;
+  padding: 0;
+}
 
 
 /* ::Media queries */
@@ -219,6 +250,34 @@ article .byline {
 
 
 // Eg for 480px
+@media screen and (max-width: em-font(767px)) {
+  .logo {
+    position: static;
+    top: 0;
+    left: 0;
+    text-align: left;
+  }
+  #title {
+    color: #bbb;
+    font-size: 2em;
+    display: inline-block;
+    line-height: 1.0em;
+    padding-bottom: 0;
+  }
+  #subtitle {
+    color: #bbb;
+    font-size: 2em;
+    display: inline-block;
+    line-height: 1.0em;
+  }
+  #corp {
+    color: #bbb;
+    font-size: 1em;
+    line-height: 1.0em;
+    text-align:left;
+  }
+}
+
 @media screen and (min-width: em-font(480px)) {
 	.container {
 		width: 80%;
