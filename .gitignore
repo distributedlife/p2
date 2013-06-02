@@ -12,4 +12,3 @@ source/stylesheets/screen.css
 vendor
 node_modules
 mixture_project/converted-html
-mixture_project/compass/config.rb
