@@ -447,7 +447,7 @@ article .byline {
 }
 
 .paginate {
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
@@ -690,6 +690,18 @@ article .byline {
 @media screen and (min-width: 76.25em) {
   .paginate {
     opacity: 1;
+  }
+  .paginate a {
+    position: fixed;
+  }
+}
+@media screen and (max-width: 76.25em) {
+  .paginate a {
+    position: absolute;
+    top: 40px;
+    line-height: 36px;
+    width: 36px;
+    font-size: 18px;
   }
 }
 @media print {
