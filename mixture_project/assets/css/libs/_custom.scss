@@ -161,7 +161,7 @@ article .byline {
 }
 
 .paginate{
-	opacity: 0;
+	opacity: 1;
 	@include animation(all, 500ms, ease);
 
 	a{
@@ -395,7 +395,22 @@ article .byline {
 @media screen and (min-width: em-font(1220px)) {
 	.paginate{
 		opacity: 1;
+    a {
+      position: fixed;
+    }
 	}
+}
+
+@media screen and (max-width: em-font(1220px)) {
+  .paginate {
+    a { 
+      position: absolute;
+      top: 40px;
+      line-height: 36px;
+      width: 36px;
+      font-size: 18px;
+    }
+  }
 }
 
 // Print styles
