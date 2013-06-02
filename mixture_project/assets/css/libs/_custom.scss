@@ -303,9 +303,10 @@ footer {
 	}
 	.container {
 		min-width: em-font(686px);
+		padding-left: em-font(95px);
+		padding-right: em-font(95px);
 	}
 	.page{
-		margin-left: em-font(190px);
 	}
 	.table-of-contents{
 
@@ -317,7 +318,7 @@ footer {
 			margin-left: em-font(36px);
 		}
 
-		margin-left: em-font(190px);
+		//margin-left: em-font(190px);
 
 		.author-avatar{
 			display: none;
@@ -331,21 +332,6 @@ footer {
 	}
 	.cover{
 		width: 12044px;
-	}
-	.left-column{
-		max-width: em-font(190px);
-		margin: em-font(54px) 0 0 em-font(-190px);
-		position: fixed;
-		top: 0;
-		text-align: center;
-
-		.author-avatar{
-			width: 100%;
-			max-width: em-font(148px);
-			text-align: center;
-			margin-bottom: 1.25em;
-			margin-right: 0;
-		}
 	}
 	h1 { 
 		@include adjust-font-size-to(38px); 

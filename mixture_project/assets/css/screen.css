@@ -591,15 +591,10 @@ footer {
 
   .container {
     min-width: 42.875em;
+    padding-left: 5.9375em;
+    padding-right: 5.9375em;
   }
 
-  .page {
-    margin-left: 11.875em;
-  }
-
-  .table-of-contents {
-    margin-left: 11.875em;
-  }
   .table-of-contents article {
     position: relative;
     text-align: left;
@@ -618,21 +613,6 @@ footer {
 
   .cover {
     width: 12044px;
-  }
-
-  .left-column {
-    max-width: 11.875em;
-    margin: 3.375em 0 0 -11.875em;
-    position: fixed;
-    top: 0;
-    text-align: center;
-  }
-  .left-column .author-avatar {
-    width: 100%;
-    max-width: 9.25em;
-    text-align: center;
-    margin-bottom: 1.25em;
-    margin-right: 0;
   }
 
   h1 {
