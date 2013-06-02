@@ -543,6 +543,10 @@ article .byline {
   display: none;
 }
 
+footer {
+  display: none;
+}
+
 /* ::Media queries */
 /* ------------------------------------------------------------ */
 @media screen and (max-width: 47.9375em) {
