@@ -409,6 +409,27 @@ article .byline {
       line-height: 36px;
       width: 36px;
       font-size: 18px;
+      &.prev{
+        left: 0;
+        margin-left: 20px;
+        padding-right: 4px;
+      }
+      &.next{
+        right: 0;
+        margin-right: 20px;
+        padding-left: 4px;
+      }
+      &:hover{
+
+        background-color: $highlight;
+
+        &.prev{
+          left: 0;
+        }
+        &.next{
+          right: 0;
+        }
+      }
     }
   }
 }
