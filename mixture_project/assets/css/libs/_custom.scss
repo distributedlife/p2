@@ -407,8 +407,6 @@ footer {
 	.container {
 		width: em-font(768px);
 	}
-}
-@media screen and (min-width: em-font(1220px)) {
 	.paginate{
 		opacity: 1;
     a {
@@ -417,7 +415,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: em-font(1220px)) {
+@media screen and (max-width: em-font(1024px)) {
   .paginate {
     a { 
       position: absolute;
