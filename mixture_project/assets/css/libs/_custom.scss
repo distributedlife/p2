@@ -28,7 +28,7 @@ body{
 }
 .cover{
 	@include animation(width, 500ms, ease-in-out);
-	background: #efefef url(../img/issue_1_cover.jpg) no-repeat center center fixed;
+	//background: #efefef url(../img/issue_1_cover.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -140,6 +140,7 @@ article header{
 	border-bottom: 1px lighten($primary, 50%) solid;
 	margin-bottom: em-font(20px);
 }
+
 article footer{
 	border-top: 1px lighten($primary, 50%) solid;
 	margin-top: em-font(10px);
