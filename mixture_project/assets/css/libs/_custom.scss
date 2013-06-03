@@ -297,6 +297,9 @@ footer {
     line-height: 1.0em;
     text-align:left;
   }
+  #start-reading {
+    display: none;
+  }
 }
 
 @media screen and (min-width: em-font(480px)) {
