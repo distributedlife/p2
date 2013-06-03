@@ -311,6 +311,10 @@ footer {
 
 // Eg for 800px
 @media screen and (min-width: em-font(767px)) {
+  #bottom-pages {
+    display: block;
+  }
+  
 	body {
 		margin: em-font(0px) em-font(11px) em-font(22px) em-font(11px);
 	}
@@ -414,6 +418,9 @@ footer {
     }
 	}
 }
+#bottom-pages {
+  display: none;
+}
 
 @media screen and (max-width: em-font(1024px)) {
   .paginate {
@@ -442,6 +449,25 @@ footer {
         }
         &.next{
           right: 0;
+        }
+      }
+    }
+  }
+  #bottom-pages {
+    margin-top: -110px;
+    display: block;
+    .paginate {
+      text-align: center;
+      a {
+        position: inherit;
+        font-size: 18px;
+        line-height: 36px;
+        width: 36px;
+        &.prev {
+          float: left;
+        }
+        &.next {
+          float: right;
         }
       }
     }
