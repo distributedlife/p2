@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Uncovering your data's dark matter"
-date: 2013-05-11 10:17
-comments: true
+permalink: /issue/1/uncovering-your-datas-dark-matter/
+issue: 1
+page: 1
+comments: false
 author: Jennifer Smith
 categories:
 ---
@@ -24,23 +26,11 @@ A graph database stores data as nodes and relationships. If we wanted to query t
 
 The following is an example of the kind of insight we found when looking at our data as a graph. Imagine you are analysing purchase data for an online record store and you want to find out a little more about your customer's buying habits. A customer's purchase of an album might be represented as follows.
 
-(jen)-[:bought]->
-       ({title:"Selected Ambient Works: 85-92"})-[:performedBy]->(aphexTwin)
-
 Round parentheses denote nodes, square parentheses denote relationships.
 
 As it stands, this probably closely resembles the original, relational database structure. Things start to get interesting when we begin to overlay new relationships. For example, we could infer that I like Aphex twin if I have bought two of his albums:
 
-(jen)-[:bought]->
-({title:"Selected Ambient Works: 85-92"})-[:performedBy]->(aphexTwin)
-(jen)-[:bought]->
-({title:"Classics"})-[:performedBy]->(aphexTwin)
-
-=> (jen)-[:isAFanOf]->(aphexTwin)
-
 Now from a simple database of music purchases, you can build up a graph of users and their preferred artists. It goes beyond that. You can start to compare different users by their proximity in this graph:
-
-(jen)-[:isAFanOf]->(aphexTwin)<-[:isAFanOf]-(bob)-[:isAFanOf]->(squarepusher)
 
 Perhaps I would enjoy Squarepusher too as Bob - a fellow Aphex Twin enthusiast - is a fan.
 We can figure out how musically similar Aphex Twin and Squarepusher were using a shortest path calculation. Groups of artists could be clustered by the tastes of their fans. You could use calculate the clustering coefficient to measure whether your users have a broad range of tastes or whether they are all really into Drill n' Bass.

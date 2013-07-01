@@ -1,0 +1,31 @@
+{% block content %}
+	<section class="table-of-contents">
+    <header class="cover">
+      <img src="../../assets/img/issue_1_cover.jpg" style="width:100%; height: 100%"/>
+    </header>
+  <div class="logo">
+    <h1 id="title">P2</h1>
+    <h4 id="subtitle">Magazine</h4>
+    <h4 id="corp"><strong>Thought</strong>Works</h4>
+  </div>
+    <nav class="issues">
+      <ul class="clearfix">
+        <li class="active"><a href="{{model.issuelink}}">{{ model.modelDate }}</a>
+        <!-- <li class="pull-right"><a href="#">Older Issues</a>-->
+        <li id="start-reading" class="pull-right"><a href="{{ model.next}}">Start Reading &raquo;</a></li>
+      </ul>
+    </nav>
+		<section class="issue-notes">
+      <h1>A Word From The Editor</h1>
+      <p>Welcome to the inaugural issue of P2 Magazine. Pillar 2, within ThoughtWorks, is software excellence, flanked by pillars one and three of sustainable business and social justice. These three equally support ThoughtWorks.</p>
+      <p>Software excellence evades definition. It’s easy to think of concise lines of code laid out like prose. But we didn’t want this magazine to be exclusively for those who think in code. ThoughtWorks is filled with testers, designers, analysts and innovators. We had to expand our definition to include the excellence that happens before and after we even consider how we solve a problem.</p>
+      <p>When we embarked on this project in early May, we decided to publish monthly without regard for getting it ‘right’. We’ll release, get feedback, learn, improve and then do it all again. This lightweight: do, learn, adapt is at the core of how ThoughtWorks operates and comes to life in <em>Big Data Ain’t So Big</em> and a new perspective on learning is uncovered by Jen Smith. I tell a cautionary tale and we experiment with <em>Improve This</em> and <em>A Puzzle</em>.</p>
+      <p>We’ve strived to avoid the middle ground. There are plenty of places on the Internet to find a balanced view. Our stories tell just one side. An opinionated, well written, human story that is interesting, original and, we hope, a conversation starter. </p>
+      <p>In order to learn, we need feedback. So please tell us what you think: <a href="mailto:p2@thoughtworks.com">p2@thoughtworks.com</a></p>
+      <p>Ryan Boucher, Editor in Chief</p>
+		</section>
+    <section class="issue-notes">
+      <h3><a href="{{ model.next }}">Start Reading &raquo;</a></h3>
+    </section>
+	</section>
+{% endblock %}

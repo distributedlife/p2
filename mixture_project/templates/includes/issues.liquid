@@ -1,7 +1,7 @@
 <nav class="issues">
 	<ul class="clearfix">
-		<li class="active"><a href="http://thoughtworks.github.io/p2">Issue 01, June 2013</a>
+    <li class="active"><a href="{{model.issuelink}}">{{model.issue}}</a>
 		<!-- <li class="pull-right"><a href="#">Older Issues</a>-->
-    <li class="pull-right">Page {{ model.page }} / 6</li>
+    <li class="pull-right">Page {{ model.page }} / {{ model.pagetotal}} </li>
 	</ul>
 </nav>
