@@ -6,7 +6,7 @@ project_path = "/Users/rboucher/projects/p2/mixture_project/"
 # Set this to the root of your project when deployed:
 # -----------------------------------------------------------------------------
 
-http_path = "/"
+http_path = "/p2/"
 css_dir = "assets/css"
 sass_dir = "assets/css"
 images_dir = "assets/img"
