@@ -22,6 +22,7 @@ rm -rf *
 mv ../converted-html/p2/* .
 
 git add .
+git add -u
 git commit -m "$1"
 
 echo "Pushing changes to gh-pages ($1)"
