@@ -6,7 +6,7 @@
         <meta name="description" content="Test">
         <title>{% block title %}{{model.title}}{% endblock %}</title>
         <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-        {{ "screen.css" | asset_url | stylesheet_tag }}
+        <link href="/assets/css/screen.min.css" rel="stylesheet" type="text/css" media="all"/>
         <script src="http://modernizr.com/downloads/modernizr-2.5.3.js"></script>
     </head>
     <body class="wrapper">
