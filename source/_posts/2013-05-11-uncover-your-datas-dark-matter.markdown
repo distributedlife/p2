@@ -40,5 +40,3 @@ This example shows the ability to combine both an awareness of what the data rep
 Graphs are a powerful way of modelling your data, but there are many other options. Relational databases are great for aggregating and grouping tabular data. Document databases are a great way of storing loosely structured sets of data. Newer stores like Datomic organise data into time-based, immutable 'facts'. Changing the way you store data will help you see things you didn't see, give you great ideas and inspiration. 
 
 “A moment's insight is sometimes worth a life's experience.” - Oliver Wendell Holmes, Jr. 
-
-Author: Jennifer Smith
