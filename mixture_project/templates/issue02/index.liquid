@@ -22,7 +22,10 @@
       <p>Ryan Boucher, Editor in Chief</p>
 		</section>
     <section class="issue-notes">
-      <h3><a href="{{ model.next }}">Start Reading &raquo;</a></h3>
+      <h3>
+        <a href="{{ model.lastIssue }}">&laquo; Last Issue</a>
+        <a class="pull-right" href="{{ model.next }}">Start Reading &raquo;</a>
+    </h3>
     </section>
 	</section>
 {% endblock %}
