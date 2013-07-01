@@ -19,7 +19,7 @@ cp -R mixture_project/converted-html ..
 rm -rf *
 
 # Dump in the exported html
-mv ../converted-html/* .
+mv ../converted-html/p2/* .
 
 git add .
 git commit -m "$1"
