@@ -1,42 +1,52 @@
 ---
 layout: post
-title: "Uncovering your data's dark matter"
-permalink: /issue/1/uncovering-your-datas-dark-matter/
-issue: 1
+title: Uncovering Your Data's Dark Matter
+subtitle: Want to see deeper patterns in your data? Try looking at it in a new way, says Jen Smith
+permalink: /issue01/dark-matter/
+byline: Jen Smith
 page: 1
-comments: false
-author: Jennifer Smith
-categories:
+pagetotal: 6
+issue: Issue 01, June 2013
+issuelink: index
+prev: index
+nxt: big-data
+authors:
+    - name: Jen Smith
+      twitter: jennifersmithco
+      avatar: jen-avatar.jpg
 ---
-"Lateral thinking is... concerned with breaking out of the concept prisons of old ideas. This leads to changes in attitude and approach; to looking in a different way at things which have always been looked at in the same way." - Edward De Bono - Lateral Thinking: A Textbook of Creativity
+> "Lateral thinking is... concerned with breaking out of the concept prisons of old ideas. This leads to changes in attitude and approach; to looking in a different way at things which have always been looked at in the same way." - Edward De Bono
 
-The data created by your applications is a rich source of information that you can use to know and understand your customers better. Not just application data but logging data and usage data, like Google Analytics, can be provide a competitive advantage if you can exploit them.
+We write applications which report on data in systems every day. And that data is a rich source of information that is used to understand your business and your customers better. What isn’t obvious is that this data can tell you more about your customers if you can see it in a different way.
 
-I was working with a client recently who wanted to do just that. They had several years worth of transactional data that they knew contained a lot of interesting information. Information about how their users interacted with the site and with each other. Unfortunately, their existing database did not make it easy to perform this analysis. 
+But getting a fresh perspective on your existing data in its existing structure can be harder than it looks.  Your lines of investigation are constrained by the medium in which you store the data. We have to put into a fresh context to really see the patterns which tell a story. By exploring your data freed up from it's normal environments, you may discover insights and ideas. Lets have a look at some of the challenges here.
 
-This is not an uncommon problem. The decisions about how you organise your data and your choice of data-store - whether a traditional relational database or one of the newer NoSQL options - will be made to optimise for your application.
+I was working with a client recently who wanted use their data to examine how their users interacted with the site and with each other. Their database contained several years worth of transactional data: they knew the answer would be in there. But their existing database made it hard to find the information they wanted. Trying to query interactions and relationships between users in the existing, relational database  quickly descended into complicated join statements and temporary tables. Aside from performance problems, the complexity of the SQL statements made the whole venture extremely frustrating.
 
-The optimisation and organisation of a data-store constrains our ability to analyse and explore the data. In our case, trying to query interactions and relationships between users in the existing, relational database descended into complicated join statements and temporary tables. Aside from the performance, the complexity of the SQL statements made the whole venture extremely frustrating.
+This is a common problem. When choosing a database technology and structure we – quite reasonably – make our decision based on the best fit for the application. Unfortunately the choices we make can later constrain our ability to analyse and explore the data. So we decided that we had to break the data out of its existing structure and model it in a new way.
 
-So we had the data and a suspicion that there was value hidden within and the existing data-store was preventing us from accessing it. We decided that we had to break the data out of it’s existing structure and find a new way to model it. And that was what we did.
+As a proof-of-concept, we loaded two years of data into a graph database. We didn't spend long developing a mature Extract-Transform-Load (ETL) process. It was more important to us to get feedback quickly on whether our approach was working.
 
-As a proof-of-concept, we took two years of data and turned it into a graph database. Immediately we were able to see the data in a new light. Having the data in a graph opened up a wealth of new ideas and possibilities we had not thought of before this exercise. We were able to traverse relationships between users that were so difficult in the data's original setting. It's worth noting that we didn't spend a long developing a mature Extract-Transform-Load (ETL) process. It was more important to us to get feedback quickly and validate the approach.
+Graph databases store data as graphs of nodes and relationships. For example, if you were analysing data from an online record store, you might model an album purchase as follows:
 
-A graph database stores data as nodes and relationships. If we wanted to query the relationships between users and parts of the site, it would help to use a structure where these relationships were modelled as first-class entities rather than being relegated to foreign keys and many-to-many tables. 
+![A simple relationship](../images/dark-matter/1.png)
 
-The following is an example of the kind of insight we found when looking at our data as a graph. Imagine you are analysing purchase data for an online record store and you want to find out a little more about your customer's buying habits. A customer's purchase of an album might be represented as follows.
+As it stands, this resembles the original, relational database structure. Users, albums and artists, originally stored as tables, are now represented as nodes. Likewise, purchase information and links between albums and artists are now named, directed relationships between these nodes.
 
-Round parentheses denote nodes, square parentheses denote relationships.
+Things start to get interesting when you start to infer new relationships from the existing data and overlay them on the graph. For example, you could infer that I like Aphex Twin if I have bought two of his albums:
 
-As it stands, this probably closely resembles the original, relational database structure. Things start to get interesting when we begin to overlay new relationships. For example, we could infer that I like Aphex twin if I have bought two of his albums:
+![Inferred Relationship](../images/dark-matter/2.png)
 
-Now from a simple database of music purchases, you can build up a graph of users and their preferred artists. It goes beyond that. You can start to compare different users by their proximity in this graph:
+Now from a simple database of music purchases, you can build up a graph of users and their preferred artists. You can start to use this information to start recommending music to me that I might enjoy:
 
-Perhaps I would enjoy Squarepusher too as Bob - a fellow Aphex Twin enthusiast - is a fan.
-We can figure out how musically similar Aphex Twin and Squarepusher were using a shortest path calculation. Groups of artists could be clustered by the tastes of their fans. You could use calculate the clustering coefficient to measure whether your users have a broad range of tastes or whether they are all really into Drill n' Bass.
+![Recommending Music](../images/dark-matter/3.png)
 
-This example shows the ability to combine both an awareness of what the data represents with concepts that arise purely through how it is represented. In our case, storing data as a graph allowed us to tap into graph theory algorithms and concepts that inspired us to explore the data in ways we had not thought of before.
+Perhaps I would enjoy Squarepusher too as my friend Bob - a fellow Aphex Twin enthusiast - is a fan.
 
-Graphs are a powerful way of modelling your data, but there are many other options. Relational databases are great for aggregating and grouping tabular data. Document databases are a great way of storing loosely structured sets of data. Newer stores like Datomic organise data into time-based, immutable 'facts'. Changing the way you store data will help you see things you didn't see, give you great ideas and inspiration. 
+Graph database show their strength when you introduce graph theory. The shortest path between Aphex Twin and Squarepusher can indicate their musical similarity. You can cluster artists by their fan’s tastes or calculate the clustering coefficient to measure whether users purchase a broad range of genres or they are all really into Drill n' Bass.
 
-“A moment's insight is sometimes worth a life's experience.” - Oliver Wendell Holmes, Jr. 
+The graph database allowed us to traverse relationships in our data that were hard to access in the original structure. This solved our initial problem, but more excitingly than that, simply changing the way we stored our data opened up a wealth of new ideas and possibilities that we had not thought of before.
+
+Graphs are a powerful way of modelling your data to discover new insights, but other database technologies can open up different areas of exploration. For example, Datomic organises data as a series of time based facts allowing you to explore user behaviour over time such as “2013-02-04 Jen bought ‘Classics’. Document databases are great for unstructured data and relational databases are still great for aggregating and slicing up data. When was the last time you de-normalised a NoSQL store into DB2 to glean insight?
+
+> "A moment's insight is sometimes worth a life's experience." - Oliver Wendell Holmes, Jr.

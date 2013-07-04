@@ -15,7 +15,7 @@ h1,h2,h3{
 }
 body{
 	font-family: $body-font;
-	margin: em-font(22px) em-font(11px) em-font(22px) em-font(11px);
+	margin: em-font(8px) em-font(11px) em-font(22px) em-font(11px);
 	font-weight: 300;
 
 	b, strong{
@@ -28,7 +28,7 @@ body{
 }
 .cover{
 	@include animation(width, 500ms, ease-in-out);
-	background: #efefef url(../img/treees.jpg) no-repeat center center fixed; 
+	//background: #efefef url(../img/issue_1_cover.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -39,9 +39,12 @@ body{
 	width: 0;
 	margin-left: -12080px;
 }
+.issue-notes{
+	border-bottom: 1px lighten($primary, 50%) solid;
+}
 .issues {
 	background: white;
-	padding: 20px 0 0 0;
+	padding: 32px 0 0 0;
 
 	ul {
 		border-bottom: 1px lighten($primary, 50%) solid;
@@ -73,20 +76,39 @@ body{
 		margin: em-font(15px) 0;
 		border-bottom: 1px lighten($primary, 50%) solid;
 		text-align: center;
-
 	}
 	.author-avatar{
 		float: none;
 		max-width: em-font(48px);
 	}
+	.article-number{
+		font-family: "Roboto Slab", serif;
+		font-style: italic;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: em-font(12px);
+    color: #ccc;
+    // max-width: em-font(72px);
+  }
+
 	.summary{
 
 		display: block;
-		padding: 0px 0 20px 0;
+		padding: 0px 0 8px 0;
 
-		h2, p{
+		h3, p{
 
+      font-size: 12px;
 			margin: rhythm(1, 24px) 0 rhythm(1, 24px) 0;  
+      
+      .title {
+        text-transform: uppercase;
+      }
+      
+      .author {
+        color: #bbb;
+      }
 
 			a{
 				text-decoration: none;
@@ -101,7 +123,7 @@ body{
 	text-align: center;
 
 	.author{
-		padding: em-font(14px);
+		padding: em-font(10px);
 		margin: 0;
 	}
 	.author-avatar{
@@ -109,15 +131,15 @@ body{
 	}
 }
 .author-avatar{
-	margin-right: em-font(20px);
 	background-color: whitesmoke;
-	-webkit-mask-image: url(../img/circle-img-mask.png);
+	-webkit-mask-image: url(../images/circle-img-mask.png);
 	-webkit-mask-size: 100% 100%;
 }
 article header{
 	border-bottom: 1px lighten($primary, 50%) solid;
 	margin-bottom: em-font(20px);
 }
+
 article footer{
 	border-top: 1px lighten($primary, 50%) solid;
 	margin-top: em-font(10px);
@@ -130,12 +152,23 @@ article footer{
 		vertical-align: middle;
 	}
 }
+
+article .byline {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #bbb;
+}
+
+article img {
+    width: 100%;
+}
+
 .paginate{
-	opacity: 0;
+	opacity: 1;
 	@include animation(all, 500ms, ease);
 
 	a{
-		background-color: rgba(0,0,0,0.05);
+		background-color: rgba(0,0,0,0.15);
 		color: #fff;
 		font-size: 32px;
 		width: 72px;
@@ -171,7 +204,6 @@ article footer{
 		}
 	}
 }
-
 .pull-right{
 	float: right;
 }
@@ -179,9 +211,77 @@ article footer{
 	float: left;
 }
 
+#title {
+  color: #fff;
+  font-size: 10em;
+  margin:0;
+  font-weight: bold;
+  line-height: 130px;
+  margin-left: 0.01em;
+  text-align: center
+}
+
+#subtitle {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+#corp {
+  color: #fff;
+  font-size: 1.79em;
+  margin: 0;
+  text-align: center;
+}
+.logo {
+  position: fixed;
+  top: 26px;
+  left: 10px;
+  /*z-index: 1;*/
+  padding: 0;
+}
+
+.gist {
+  font-size: 0.8em;
+}
+
+pre.line-pre {
+  white-space: normal !important;
+}
+
+div.normal-gist {
+  pre.line-pre {
+    white-space: pre !important;
+  }
+}
+
+.gist-meta {
+  display:none;
+}
+
+footer {
+  display:none;
+}
+
 .snippet {
-  font-size: 0.6em;
-  padding-left: 1em;
+  font-size: 0.8em;
+  margin-left: 2em;
+  display: inline-block;
+}
+
+.computer {
+  font-family: 'courier new'
+}
+
+.inline-code {
+  font-family: 'courier new';
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 0px 5px;
+  margin: 0 2px;
+  border-radius: 3px;
 }
 
 /* ::Media queries */
@@ -193,6 +293,37 @@ article footer{
 
 
 // Eg for 480px
+@media screen and (max-width: em-font(767px)) {
+  .logo {
+    position: static;
+    top: 0;
+    left: 0;
+    text-align: left;
+  }
+  #title {
+    color: #bbb;
+    font-size: 2em;
+    display: inline-block;
+    line-height: 1.0em;
+    padding-bottom: 0;
+  }
+  #subtitle {
+    color: #bbb;
+    font-size: 2em;
+    display: inline-block;
+    line-height: 1.0em;
+  }
+  #corp {
+    color: #bbb;
+    font-size: 1em;
+    line-height: 1.0em;
+    text-align:left;
+  }
+  #start-reading {
+    display: none;
+  }
+}
+
 @media screen and (min-width: em-font(480px)) {
 	.container {
 		width: 80%;
@@ -202,11 +333,15 @@ article footer{
 
 // Eg for 800px
 @media screen and (min-width: em-font(767px)) {
+  #bottom-pages {
+    display: block;
+  }
+  
 	body {
 		margin: em-font(0px) em-font(11px) em-font(22px) em-font(11px);
 	}
 	.container {
-		min-width: em-font(686px);
+		min-width: em-font(586px);
 	}
 	.page{
 		margin-left: em-font(190px);
@@ -217,20 +352,20 @@ article footer{
 			position: relative;
 			text-align: left;
 		}
-
-		article .summary{
-			margin-right: 120px;
+		.summary{
+			margin-left: em-font(36px);
 		}
 
 		margin-left: em-font(190px);
 
 		.author-avatar{
+			display: none;
 			position: absolute;
 			right: 0;
 			top: 50%;
 			width: 100%;
 			margin-top: em-font(-36px);
-			max-width: em-font(72px);
+			// max-width: em-font(72px);
 		}
 	}
 	.cover{
@@ -296,19 +431,69 @@ article footer{
 // Eg for 1024px
 @media screen and (min-width: em-font(1024px)) {
 	.container {
-		width: em-font(916px);
+		width: em-font(768px);
 	}
-	.article-body{
-		@include columns(em-font(30px), 2);
-		p{
-			@include column-break(avoid);
-		}
-	}
-}
-@media screen and (min-width: em-font(1220px)) {
 	.paginate{
 		opacity: 1;
+    a {
+      position: fixed;
+    }
 	}
+}
+#bottom-pages {
+  display: none;
+}
+
+@media screen and (max-width: em-font(1024px)) {
+  .paginate {
+    a { 
+      position: absolute;
+      top: 40px;
+      line-height: 36px;
+      width: 36px;
+      font-size: 18px;
+      &.prev{
+        left: 0;
+        margin-left: 20px;
+        padding-right: 4px;
+      }
+      &.next{
+        right: 0;
+        margin-right: 20px;
+        padding-left: 4px;
+      }
+      &:hover{
+
+        background-color: $highlight;
+
+        &.prev{
+          left: 0;
+        }
+        &.next{
+          right: 0;
+        }
+      }
+    }
+  }
+  #bottom-pages {
+    margin-top: -110px;
+    display: block;
+    .paginate {
+      text-align: center;
+      a {
+        position: inherit;
+        font-size: 18px;
+        line-height: 36px;
+        width: 36px;
+        &.prev {
+          float: left;
+        }
+        &.next {
+          float: right;
+        }
+      }
+    }
+  }
 }
 
 // Print styles
@@ -385,3 +570,4 @@ article footer{
     margin: 0;
     padding: 0;
 }
+

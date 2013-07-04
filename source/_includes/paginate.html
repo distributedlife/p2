@@ -1,0 +1,8 @@
+<nav class="paginate">
+  {% if page.prev %}
+    <a href="{{ page.prev }}" class="prev">&#9664;</a>
+  {% endif %}
+  {% if page.nxt %}
+    <a href="{{ page.nxt }}" class="next">&#9654;</a>
+  {% endif %}
+</nav>
