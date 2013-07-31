@@ -1,10 +1,11 @@
 ---
 layout: editorial
 title: A Word From The Editor
+permalink: /issue01/
 modelDate: Issue 02, July 2013
 issuelink: /issue01/index
 nxt: dark-matter
-permalink: /issue01/
+category: index
 ---
 Welcome to the inaugural issue of P2 Magazine. Pillar 2, within ThoughtWorks, is software excellence, flanked by pillars one and three of sustainable business and social justice. These three equally support ThoughtWorks.
 
