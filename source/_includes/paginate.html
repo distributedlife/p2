@@ -1,8 +1,18 @@
 <nav class="paginate">
   {% if page.prev %}
-    <a href="{{ page.prev }}" class="prev">&#9664;</a>
+    <a id="prev" href="{{ page.prev }}" class="prev">&#9664;</a>
+    <script type="text/javascript">
+      key('left', function() {
+        window.open($("#prev")[0].href, '_self', false);
+      });
+    </script>
   {% endif %}
   {% if page.nxt %}
-    <a href="{{ page.nxt }}" class="next">&#9654;</a>
+    <a id="next" href="{{ page.nxt }}" class="next">&#9654;</a>
+    <script type="text/javascript">
+      key('right', function(){
+        window.open($("#next")[0].href, '_self', false);
+      });
+    </script>
   {% endif %}
 </nav>

@@ -8,7 +8,7 @@ page: 1
 pagetotal: 6
 issue: Issue 01, June 2013
 issuelink: index
-prev: index
+prev: /p2/issue01/
 nxt: big-data
 authors:
     - name: Jen Smith
