@@ -5,7 +5,7 @@ modelDate: Issue 02, July 2013
 permalink: /issue02/index
 issuelink: index
 nextIssue: /p2/issue03/index/
-lastIssue: /p2/issue02/index/
+lastIssue: /p2/issue01/index/
 nxt: /p2/issue02/virus-one/
 cover: issue_2_cover.jpg
 category: index

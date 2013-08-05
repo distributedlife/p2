@@ -22,12 +22,17 @@ layout: default
     </section>
     <section class="issue-notes">
         <h3>
+          {% if page.lastIssue %}
             {% if page.nextIssue %}
-            <a href="{{ page.nxt }}">Read this issue &raquo;</a>
+            <a href="{{ page.lastIssue }}">&laquo; Last Issue</a>
             <a class="pull-right" href="{{ page.nextIssue }}">Jump to next issue &raquo;</a>
             {% else %}
             <a href="{{ page.lastIssue }}">&laquo; Last Issue</a>
             <a class="pull-right" href="{{ page.nxt }}">Start Reading &raquo;</a>
+          {% else %}
+            {% if page.nextIssue %}
+            <a href="{{ page.nxt }}">Read this issue &raquo;</a>
+            <a class="pull-right" href="{{ page.nextIssue }}">Jump to next issue &raquo;</a>
             {% endif %}
         </h3>
     </section>
