@@ -14,6 +14,7 @@ git pull --rebase
 echo "Restructing, hold tight."
 rm -rf ../public
 cp -R public ..
+cp -R redirects/* ../public
 
 # Clear out the entire gh-pages repo for replacement
 rm -rf *
