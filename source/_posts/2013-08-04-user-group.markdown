@@ -20,7 +20,7 @@ authors:
 ---
 **Ali Lemer**: *What gave you the idea to start MelbJS? What were you hoping to get out of it?*
 
-**Anette Burgo**: *I was always interested in front-end development, and I was curious as to why there was a lack of rigidity and discipline around it – I had not come across the kind of practices that back-end development used. So around early 2010 I started looking for a place where I could learn more. Usually there’s a user group to be found, but in Melbourne there was only a very dead mailing list. Some people had tried to start a group but had only held one meetup, about six months earlier, so there seemed to be an open niche to fill.*
+**Anette Bergo**: *I was always interested in front-end development, and I was curious as to why there was a lack of rigidity and discipline around it – I had not come across the kind of practices that back-end development used. So around early 2010 I started looking for a place where I could learn more. Usually there’s a user group to be found, but in Melbourne there was only a very dead mailing list. Some people had tried to start a group but had only held one meetup, about six months earlier, so there seemed to be an open niche to fill.*
 
 Tammy Butow, a woman I was acquainted with through Twitter, got excited about the idea, and I knew that ThoughtWorks are quite supportive about getting involved with the developer community. So, I asked Chris Murphy (the Managing Director at the time) if I could start such a group and use the office after hours as a meeting space. He looked a bit confused as to why I was even asking and said, ‘Yes, of course!’
 
