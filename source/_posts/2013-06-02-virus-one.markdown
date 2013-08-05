@@ -2,7 +2,7 @@
 layout: post
 title: First DOS Virus
 subtitle: "John Stojanovski brings us a history of the arms race between virus engineers and anti-virus reverse-engineers. In this first instalment: a first-person account of a personal encounter with the first DOS virus."
-permalink: /issue02/virus-one/
+permalink: /issue02/virus-one
 byline: Nick Thorpe
 page: 1
 pagetotal: 7
@@ -24,7 +24,7 @@ It's 1990. I'm in year 8, and as I'm walking across the dismal asphalt quadrangl
 
 He's taunting me. I can feel the faces of the schoolyard swivelling toward me.
 
-1990. This is back before public internet existed. Before ISP's. Shane, and a  few others of us at school were swapping pirated floppy discs. 5 and a ¼ inches of excitement. We're mates. Spacequest, stuff like that. I run it on my x86 at home.
+"1990. This is back before public internet existed. Before ISP's. Shane, and a  few others of us at school were swapping pirated floppy discs. 5 and a ¼ inches of excitement. We're mates. Spacequest, stuff like that. I run it on my x86 at home."
 
 As geeks,  we're largely invisible in the overall social structure, but I'm big news in geekland.  I know stuff about computers that isn't general knowledge.  I can write BASIC.  I've hex-edited my name into the copyright strings of my command interpreter, by editing the disk sectors with DiskEdit.
 
