@@ -12,14 +12,14 @@ git pull --rebase
 
 # Mv converted-html to ..
 echo "Restructing, hold tight."
-rm -rf ../converted-html
+rm -rf ../public
 cp -R /public -html ..
 
 # Clear out the entire gh-pages repo for replacement
 rm -rf *
 
 # Dump in the exported html
-mv ../converted-html/* .
+mv ../public/* .
 
 git add .
 git add -u
