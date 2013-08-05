@@ -25,7 +25,7 @@ This week’s puzzle is about deployments. Given the 11 clues we are trying to f
 8. The person who deploys to the PAAS is does so more frequently than the person who deploys to the Desktop
 9. Of the System Packaging fan and Charlie, one deploys monthly and the other deploys to Mobile
 10. The person who deploys to the IAAS is not Max
-11. The fourth deployment deliverable is an application package
+11. Someone prefers application packages
 
 Submit your completed answers to p2@thoughtworks.com and the first correct answer wins a prize.
 
