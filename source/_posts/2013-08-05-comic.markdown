@@ -11,8 +11,7 @@ prev: /p2/issue03/user-group
 nxt: /p2/issue03/showcase
 authors:
     - name: Pennueng Chemsripong
-      twitter: 
       avatar: pete-avatar.jpg
 ---
-![Jim the Accountant](../images/comic/1.png)
+![Jim the Accountant](/p2/images/comic/1.png)
 
