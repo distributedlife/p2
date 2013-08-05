@@ -18,7 +18,7 @@ Consider a city where there train network has two zones. Zones impact the cost o
 
 "Here is a sketch of our train station (the dark triangles are the ticket readers):"
 
-![Train Station](../images/improve-this/train-station.png)
+![Train Station](/p2/images/improve-this/train-station.png)
 
 The trouble is that this particular station sits in an increasingly popular area. As each month goes by the number of passengers alighting here goes up.
 

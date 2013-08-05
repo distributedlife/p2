@@ -5,7 +5,7 @@ modelDate: Issue 03, August 2013
 permalink: /issue03/index
 issuelink: /p2/issue03/index
 lastIssue: /p2/issue02/index
-nxt: localisation-africa
+nxt: /p2/issue03/localisation-africa
 cover: issue_3_cover.jpg
 category: index
 ---
