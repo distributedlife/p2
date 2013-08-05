@@ -13,6 +13,24 @@ authors:
     - name: by The P2 Elves
       avatar: pdp11-avatar.jpg
 ---
+This week’s puzzle is about deployments. Given the 11 clues we are trying to find out who does the deployment, how frequently do they do it, what deploy is their target and who prefers which method for deployment.
+
+1. The person who has to deploy to Mobile is not Max or Sam
+2. Neither Max or Charlie are fans of Copying Files
+3. The one who deploys quarterly does so to a Mobile target
+4. Andy deploys weekly
+5. The person making use of a third party PAAS is not Andy or Charlie
+6. Sam is either the Copying Files or the System Package enthusiast
+7. The person who makes VM Images is not Charlie and doesn’t own deploy to a PAAS
+8. The person who deploys to the PAAS is does so more frequently than the person who deploys to the Desktop
+9. Of the System Packaging fan and Charlie, one deploys monthly and the other deploys to Mobile
+10. The person who deploys to the IAAS is not Max
+11. The fourth deployment deliverable is an application package
+
+Submit your completed answers to p2@thoughtworks.com and the first correct answer wins a prize.
+
+-> ⁂ <-
+
 We had a lots of great answers from last issue’s train station puzzle. The most common answer we got was the remove the wall before the readers. This would remove the bottleneck in the physical space. 
 
 ![Train Station](/p2/images/improve-this/train-station.png)
@@ -21,4 +39,4 @@ Some of the more forceful suggestions were: increasing the price for that zones 
 
 The best answers were from Chris Heisel and Paul Volpato who suggested that flat rate tickets would remove the need to use the ticket machine when alighting. Anand Krishnaswamy suggested that using an RFID would mean passengers could just walk past. Finally Juan Paulo Breinlinger suggested that we decentralise the city to reduce the pressure on that particular station. Bravo!
 
-Prizes for Chris, Paul, Anand and Juan Paulo are Pride and Paradev by Alister Scott.
+The prize for Chris, Paul, Anand and Juan Paulo is a copy of *Pride and Paradev* by Alister Scott.
