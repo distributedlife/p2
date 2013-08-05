@@ -5,16 +5,15 @@
 # Does mixture_project/converted-html exist
 #[ ! -d mixture_project/converted-html ] && echo "Please export the site from Mixture before publishing." && exit 1
 
-# Can we git checkout gh-pages
-git checkout gh-pages
-[ "$(echo $?)" != "0" ] && echo "Can't checkout gh-pages. Close Mixture and git checkout ." && exit 1
-git pull --rebase
-
-# Mv converted-html to ..
 echo "Restructing, hold tight."
 rm -rf ../public
 cp -R public ..
 cp -R redirects/* ../public
+
+# Can we git checkout gh-pages
+git checkout gh-pages
+[ "$(echo $?)" != "0" ] && echo "Can't checkout gh-pages. Close Mixture and git checkout ." && exit 1
+git pull --rebase
 
 # Clear out the entire gh-pages repo for replacement
 rm -rf *
