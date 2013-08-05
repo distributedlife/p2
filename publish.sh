@@ -1,4 +1,5 @@
 #!/bin/bash
+rake generate
 
 [ -z "$1" ] && echo "Please provide an update message for git commit (eg publish.sh \"Added new article.\")" && exit 1
 
@@ -8,7 +9,7 @@
 echo "Restructing, hold tight."
 rm -rf ../public
 cp -R public ..
-cp -R redirects/* ../public
+cp -R redirects/* ../public/redirects
 
 # Can we git checkout gh-pages
 git checkout gh-pages
@@ -20,6 +21,7 @@ rm -rf *
 
 # Dump in the exported html
 mv ../public/p2/* .
+mv ../public/redirects/* .
 
 git add .
 git add -u
