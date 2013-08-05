@@ -6,9 +6,9 @@ byline: Ryan Boucher
 page: 2
 pagetotal: 9
 issue: Issue 03, August 2013
-issuelink: index
-prev: localisation-africa
-nxt: virus-two
+issuelink: /p2/issue03/index
+prev: /p2/issue03/localisation-africa
+nxt: /p2/issue03/virus-two
 authors:
     - name: Ryan Boucher
       twitter: distributedlife

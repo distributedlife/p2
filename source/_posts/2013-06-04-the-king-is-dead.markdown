@@ -7,9 +7,9 @@ byline: Ryan Boucher
 page: 3
 pagetotal: 6
 issue: Issue 01, June 2013
-issuelink: index
-prev: big-data
-nxt: improve-this
+issuelink: /p2/issue01/index
+prev: /p2/issue01/big-data
+nxt: /p2/issue01/improve-this
 authors:
     - name: Ryan Boucher
       twitter: distributedlife

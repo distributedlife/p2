@@ -7,9 +7,9 @@ byline: The P2 Elves
 page: 4
 pagetotal: 6
 issue: Issue 01, June 2013
-issuelink: index
-prev: the-king-is-dead
-nxt: puzzle
+issuelink: /p2/issue01/index
+prev: /p2/issue01/the-king-is-dead
+nxt: /p2/issue01/puzzle
 authors:
     - name: by The P2 Elves
       avatar: pdp11-avatar.jpg

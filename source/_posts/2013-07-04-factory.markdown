@@ -7,9 +7,9 @@ byline: Ryan Boucher
 page: 3
 pagetotal: 7
 issue: Issue 02, July 2013
-issuelink: index
-prev: mobile
-nxt: continuous-design
+issuelink: /p2/issue02/index
+prev: /p2/issue02/mobile
+nxt: /p2/issue02/continuous-design
 authors:
     - name: Ryan Boucher
       twitter: distributedlife

@@ -6,9 +6,9 @@ byline: John Stojanovski and Nick Thorpe
 page: 3
 pagetotal: 9
 issue: Issue 03, August 2013
-issuelink: index
-prev: velocityraptors
-nxt: user-group
+issuelink: /p2/issue03/index
+prev: /p2/issue03/velocityraptors
+nxt: /p2/issue03/user-group
 authors:
     - name: John Stojanovski
       twitter: jotsnhoj

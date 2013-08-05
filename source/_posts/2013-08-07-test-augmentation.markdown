@@ -6,9 +6,9 @@ byline: Ryan Boucher
 page: 7
 pagetotal: 9
 issue: Issue 03, August 2013
-issuelink: index
-prev: showcase
-nxt: puzzle
+issuelink: /p2/issue03/index
+prev: /p2/issue03/showcase
+nxt: /p2/issue03/puzzle
 authors:
     - name: Ryan Boucher
       twitter: distributedlife

@@ -7,16 +7,16 @@ byline: Musa Kurhula Baloyi, Rachel Laycock and Paige Mulholland
 page: 1
 pagetotal: 9
 issue: Issue 03, August 2013
-issuelink: index
-prev: index
-nxt: velocityraptors
+issuelink: /p2/issue03/index
+prev: /p2/issue03/index
+nxt: /p2/issue03/velocityraptors
 authors:
     - name: Musa Kurhula Baloyi
       avatar: musa-avatar.jpg
 ---
 This is a story about the day it all changed for me, and hopefully for other African and minority language speakers. It is a story about the day I had my "stroke of genius". However, there was nothing particularly genius about this idea. It was all common sense, which, until this day, was not so common thanks to decades, perhaps centuries, of thinking in a particularly constrained manner.
 
-![Facebook Chat](../images/localisation-africa/1.png)
+![Facebook Chat](/p2/images/localisation-africa/1.png)
 
 I was upset when I read the comment; No-one has the right to tell me what language to speak! But the conversation drove me to perform a quick Google search for an online Tsonga dictionary. To my surprise, no online dictionary existed! Instead I found dictionaries for almost all the other South African languages, and, if a dictionary or translator did not exist at the time, it was in the works. 
 
@@ -28,7 +28,7 @@ Another challenge is finding the best translations that embody the intended mean
 
 Often times when I get to do research, I can't share it with other Tsonga people because I am using the University of the Witwatersrand's subscription to JSTOR and Google Books keeps toying with me by getting me interested in something and then saying I cannot read the next page. 
 
-![JSTOR](../images/localisation-africa/2.png)
+![JSTOR](/p2/images/localisation-africa/2.png)
 
 So I have to post retyped paragraphs of what I find interesting, which Facebook will remove from the news feed before someone asks the same question again. Most of the people will never find out anymore than that. And that makes me very worried. History is best studied while it happens. Most people's phones cannot read PDF files, so even when I find something publicly available, I have to take a screenshot or transcribe it. It is a lot of work. 
 
@@ -42,7 +42,7 @@ We need to curb digital colonisation by mapping "Ricatla" to "Rikatla", "Ribolla
 
 But to have an impact, these programmers must start a movement so big that GauTrain with their electronic systems, Absa with their small ATMs, Google, News24, and a host of other companies practising digital discrimination will no longer ignore the fact that Africans don't just speak isiZulu and Kiswahili. There are languages like Tsonga, Gironga, Sheetswha, Txicopi, Bitonga, Cindau and thousands of others.
 
-![Chrome translate](../images/localisation-africa/3.png)
+![Chrome translate](/p2/images/localisation-africa/3.png)
 
 Other than my project Madyondza, there are attempts at digitising regional content such as Xitsonga Online, Tsonga Online, Tsonga History Discourse, Nthavela, Matimu News, and Ray Chauke's YouTube channel, to name a few. It is not a big feat, but it's a foot in the door.
 

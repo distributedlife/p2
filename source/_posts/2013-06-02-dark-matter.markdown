@@ -7,9 +7,9 @@ byline: Jen Smith
 page: 1
 pagetotal: 6
 issue: Issue 01, June 2013
-issuelink: index
-prev: index
-nxt: big-data
+issuelink: /p2/issue01/index
+prev: /p2/issue02/index
+nxt: /p2/issue01/big-data
 authors:
     - name: Jen Smith
       twitter: jennifersmithco
@@ -29,17 +29,17 @@ As a proof-of-concept, we loaded two years of data into a graph database. We did
 
 Graph databases store data as graphs of nodes and relationships. For example, if you were analysing data from an online record store, you might model an album purchase as follows:
 
-![A simple relationship](../images/dark-matter/1.png)
+![A simple relationship](/p2/images/dark-matter/1.png)
 
 As it stands, this resembles the original, relational database structure. Users, albums and artists, originally stored as tables, are now represented as nodes. Likewise, purchase information and links between albums and artists are now named, directed relationships between these nodes.
 
 Things start to get interesting when you start to infer new relationships from the existing data and overlay them on the graph. For example, you could infer that I like Aphex Twin if I have bought two of his albums:
 
-![Inferred Relationship](../images/dark-matter/2.png)
+![Inferred Relationship](/p2/images/dark-matter/2.png)
 
 Now from a simple database of music purchases, you can build up a graph of users and their preferred artists. You can start to use this information to start recommending music to me that I might enjoy:
 
-![Recommending Music](../images/dark-matter/3.png)
+![Recommending Music](/p2/images/dark-matter/3.png)
 
 Perhaps I would enjoy Squarepusher too as my friend Bob - a fellow Aphex Twin enthusiast - is a fan.
 
