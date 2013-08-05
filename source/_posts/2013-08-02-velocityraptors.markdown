@@ -6,9 +6,9 @@ byline: Ryan Boucher
 page: 2
 pagetotal: 9
 issue: Issue 03, August 2013
-issuelink: /p2/issue03/index
-prev: /p2/issue03/localisation-africa
-nxt: /p2/issue03/virus-two
+issuelink: /p2/issue03/index/
+prev: /p2/issue03/localisation-africa/
+nxt: /p2/issue03/virus-two/
 authors:
     - name: Ryan Boucher
       twitter: distributedlife
@@ -20,7 +20,7 @@ I felt the pressure to score points. It had been slowly building and with the it
 
 -> ⁂ <-
 
-ityraptor is a cunning beast. It’s built lean, agile and is forever sprinting. It isn’t very strong so it uses wile to catch unwary prey. It hunts in packs to take down stronger, more alert foes. The velocityraptor has an unusual feeding cycle. Akin to a snake it only feeds every one to three weeks –some have been known to go four weeks without feeding. It food is points and devours them in a feast every cycle. The velocity is an indiscriminate predator – it doesn’t care where those points come from.
+The velocityraptor is a cunning beast. It’s built lean, agile and is forever sprinting. It isn’t very strong so it uses wile to catch unwary prey. It hunts in packs to take down stronger, more alert foes. The velocityraptor has an unusual feeding cycle. Akin to a snake it only feeds every one to three weeks –some have been known to go four weeks without feeding. It food is points and devours them in a feast every cycle. The velocity is an indiscriminate predator – it doesn’t care where those points come from.
 
 Velocity is a measure –in points– of what has been done. Not what is being done or will be done. After a few iterations of measuring velocity you can calculate the standard deviation and variance. If the variance is low then your team is probably good at relative sizing, if the variance is high then your relative sizing was probably off. All of that is academic though, as the time it’ll take to complete a story doesn’t change regardless of it’s estimate, and you can’t use velocity to measure when the project will be complete. The completion date isn’t total backlog estimate divided by velocity equals iterations to success. This doesn’t factor in replaying the same story until right. The act of iterating on your design. The velocityraptor doesn’t care for all this. It knows that it’s prey to larger predators on the corporate steppes. Without regular feeding the velocityraptor will weaken and can be brought down. 
 

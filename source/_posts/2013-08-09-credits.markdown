@@ -7,9 +7,9 @@ byline: The P2 Elves
 page: 9
 pagetotal: 9
 issue: Issue 03, August 2013
-issuelink: /p2/issue03/index
-prev: /p2/issue03/puzzle
-nxt: /p2/issue03/index
+issuelink: /p2/issue03/index/
+prev: /p2/issue03/puzzle/
+nxt: /p2/issue03/index/
 authors:
     - name: by The P2 Elves
       avatar: pdp11-avatar.jpg

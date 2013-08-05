@@ -6,9 +6,9 @@ byline: James Gregory and Ryan Boucher
 page: 6
 pagetotal: 9
 issue: Issue 03, August 2013
-issuelink: /p2/issue03/index
-prev: /p2/issue03/comic
-nxt: /p2/issue03/test-augmentation
+issuelink: /p2/issue03/index/
+prev: /p2/issue03/comic/
+nxt: /p2/issue03/test-augmentation/
 authors:
     - name: James Gregory
       twitter: jagregory

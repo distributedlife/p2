@@ -7,9 +7,9 @@ byline: Anette Bergo and Ali Lemer
 page: 4
 pagetotal: 9
 issue: Issue 03, August 2013
-issuelink: /p2/issue03/index
-prev: /p2/issue03/virus-two
-nxt: /p2/issue03/comic
+issuelink: /p2/issue03/index/
+prev: /p2/issue03/virus-two/
+nxt: /p2/issue03/comic/
 authors:
     - name: Anette Bergo
       twitter: anettebgo

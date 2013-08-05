@@ -6,9 +6,9 @@ byline: Pennueng Chemsripong
 page: 5
 pagetotal: 9
 issue: Issue 03, August 2013
-issuelink: /p2/issue03/index
-prev: /p2/issue03/user-group
-nxt: /p2/issue03/showcase
+issuelink: /p2/issue03/index/
+prev: /p2/issue03/user-group/
+nxt: /p2/issue03/showcase/
 authors:
     - name: Pennueng Chemsripong
       avatar: pete-avatar.jpg

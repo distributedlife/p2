@@ -7,9 +7,9 @@ byline: Musa Kurhula Baloyi, Rachel Laycock and Paige Mulholland
 page: 1
 pagetotal: 9
 issue: Issue 03, August 2013
-issuelink: /p2/issue03/index
-prev: /p2/issue03/index
-nxt: /p2/issue03/velocityraptors
+issuelink: /p2/issue03/index/
+prev: /p2/issue03/index/
+nxt: /p2/issue03/velocityraptors/
 authors:
     - name: Musa Kurhula Baloyi
       avatar: musa-avatar.jpg

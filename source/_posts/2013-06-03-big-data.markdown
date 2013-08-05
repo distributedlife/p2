@@ -7,9 +7,9 @@ byline: Mike Gardiner
 page: 2
 pagetotal: 6
 issue: Issue 01, June 2013
-issuelink: /p2/issue01/index
-prev: /p2/issue01/dark-matter
-nxt: /p2/issue01/the-king-is-dead
+issuelink: /p2/issue01/index/
+prev: /p2/issue01/dark-matter/
+nxt: /p2/issue01/the-king-is-dead/
 authors:
     - name: Mike Gardiner
       twitter: gardym
