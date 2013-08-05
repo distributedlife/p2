@@ -1,0 +1,39 @@
+---
+layout: post
+title: Credits
+subtitle: Who are the elves?
+permalink: /issue01/credits/
+byline: The P2 Elves
+page: 6
+pagetotal: 6
+issue: Issue 01, June 2013
+issuelink: index
+prev: improve-this
+nxt: ../issue02/index
+authors:
+    - name: by The P2 Elves
+      avatar: pdp11-avatar.jpg
+---
+**Editorial Committee**
+
+Ryan Boucher, Mike Gardiner, Rachel Laycock, Rebecca Parsons, Nick Thorpe
+
+**Writers**
+
+Ryan Boucher, Mike Gardiner, Jen Smith
+
+**Art**
+
+Greg Skinner
+
+**Site Design**
+
+Andrew Carr, Mike Gardiner
+
+**Photo Credit**
+
+The cover photo is of Yangshuo in Guangxi province taken by Adam Scott during his twelve month transfer to ThoughtWorks China
+
+**Special Thanks**
+
+Anand Bagmar, Dave Coombes

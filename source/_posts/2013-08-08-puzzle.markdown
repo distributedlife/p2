@@ -1,0 +1,24 @@
+---
+layout: post
+title: Puzzle
+permalink: /issue03/puzzle/
+byline: The P2 Elves
+page: 8
+pagetotal: 9
+issue: Issue 03, August 2013
+issuelink: index
+prev: test-augmentation
+nxt: credits
+authors:
+    - name: by The P2 Elves
+      avatar: pdp11-avatar.jpg
+---
+We had a lots of great answers from last issue’s train station puzzle. The most common answer we got was the remove the wall before the readers. This would remove the bottleneck in the physical space. 
+
+![Train Station](../images/improve-this/train-station.png)
+
+Some of the more forceful suggestions were: increasing the price for that zones so that fewer people would alight there, forcing the passengers to form a single queue rather than two and stopping the train further up the platform so the crowd is more streamlined. Other answers that were good but not enough for a prize where: add more readers, spread the readers out, add another exit to the platform and make the ticket machines faster. 
+
+The best answers were from Chris Heisel and Paul Volpato who suggested that flat rate tickets would remove the need to use the ticket machine when alighting. Anand Krishnaswamy suggested that using an RFID would mean passengers could just walk past. Finally Juan Paulo Breinlinger suggested that we decentralise the city to reduce the pressure on that particular station. Bravo!
+
+Prizes for Chris, Paul, Anand and Juan Paulo are Pride and Paradev by Alister Scott.

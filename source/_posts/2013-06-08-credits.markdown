@@ -1,0 +1,39 @@
+---
+layout: post
+title: Credits
+subtitle: Who are the elves?
+permalink: /issue02/credits/
+byline: The P2 Elves
+page: 7
+pagetotal: 7
+issue: Issue 02, June 2013
+issuelink: index
+prev: puzzle
+nxt: ../issue03/index
+authors:
+    - name: by The P2 Elves
+      avatar: pdp11-avatar.jpg
+---
+**Editorial Committee**
+
+Ryan Boucher, Mike Gardiner, Rachel Laycock, Rebecca Parsons, Nick Thorpe
+
+**Writers**
+
+Ryan Boucher, Nick Thorpe, Mike Gardiner, Scott Robinson, Satyam Agarwala
+
+**Art**
+
+Greg Skinner
+
+**Site Design**
+
+Andrew Carr, Mike Gardiner, Ryan Boucher
+
+**Photo Credit**
+
+The cover photo was taken by Ray Grasso and is of nothing in particular.
+
+**Special Thanks**
+
+Andrew Carr, Stewart Gleadow, John Stojanovski, Mike Gardiner

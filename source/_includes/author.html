@@ -5,8 +5,10 @@
          <a href="#">
             <img class="author-avatar" src="../images/{{ author.avatar }}"/>
          </a>
-         <div>{{ page.name }}</div>
+         <div>{{ author.name }}</div>
+         {% if author.twitter %}
          <a href="http://twitter.com/{{ author.twitter }}">@{{ author.twitter }}</a>
+         {% endif %}
       </div>
       {% endfor %}
    </div>

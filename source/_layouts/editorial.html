@@ -3,7 +3,7 @@ layout: default
 ---
 <section class="table-of-contents">
     <header class="cover">
-        <img src="../images/issue_2_cover.jpg" style="width:100%; height: 100%"/>
+        <img src="../images/{{ page.cover }}" style="width:100%; height: 100%"/>
     </header>
     <div class="logo">
         <h1 id="title">P2</h1>
@@ -22,8 +22,13 @@ layout: default
     </section>
     <section class="issue-notes">
         <h3>
+            {% if page.nextIssue %}
+            <a href="{{ page.nxt }}">Read this issue &raquo;</a>
+            <a class="pull-right" href="{{ page.nextIssue }}">Jump to next issue &raquo;</a>
+            {% else %}
             <a href="{{ page.lastIssue }}">&laquo; Last Issue</a>
             <a class="pull-right" href="{{ page.nxt }}">Start Reading &raquo;</a>
+            {% endif %}
         </h3>
     </section>
 </section>
