@@ -8,6 +8,7 @@ rake generate
 
 echo "Restructing, hold tight."
 rm -rf ../public
+rm -rf ../redirects
 cp -R public ..
 cp -R redirects ..
 
