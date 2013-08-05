@@ -3,9 +3,9 @@ layout: editorial
 title: A Word From The Editor
 modelDate: Issue 01, June 2013
 permalink: /issue01/index
-issuelink: index
+issuelink: /p1/issue01/index
 nextIssue: /p2/issue02/index
-nxt: dark-matter
+nxt: /p2/issue01/dark-matter
 cover: issue_1_cover.jpg
 category: index
 ---
