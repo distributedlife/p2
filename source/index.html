@@ -1,25 +1,7 @@
----
-layout: default
----
-
-<section class="table-of-contents">
-  <header role="banner"  class="cover"></header>
-    <nav class="issues">
-      <ul class="clearfix">
-        <li class="pull-right"><a href="/blog/archives">Older Issues</a>
-      </ul>
-    </nav>
-    {% assign index = true %}
-    {% for post in paginator.posts %}
-    {% assign content = post.content %}
-    <article>
-      <div class="summary">
-        <h2 class="title">
-          <a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
-        </h2>
-        <a href="#" class="author">{% include post/author.html %}</a>
-      </div>
-    </article>
-
-  {% endfor %}
-</section>
+<!DOCTYPE html5>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="refresh" content="0;url=/p2/issue03/index" />
+</head>
+</html>
