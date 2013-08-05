@@ -9,7 +9,7 @@ rake generate
 echo "Restructing, hold tight."
 rm -rf ../public
 cp -R public ..
-cp -R redirects/* ../public/redirects
+cp -R redirects ..
 
 # Can we git checkout gh-pages
 git checkout gh-pages
@@ -21,7 +21,7 @@ rm -rf *
 
 # Dump in the exported html
 mv ../public/p2/* .
-mv ../public/redirects/* .
+mv ../redirects/* .
 
 git add .
 git add -u
