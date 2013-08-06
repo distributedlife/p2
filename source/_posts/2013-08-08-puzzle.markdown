@@ -27,6 +27,10 @@ This week’s puzzle is about deployments. Given the 11 clues we are trying to f
 10. The person who deploys to the IAAS is not Max
 11. Someone prefers application packages
 
+**Updated**
+
+12. The fourth deploy frequency is daily.
+
 Submit your completed answers to p2@thoughtworks.com and the first correct answer wins a prize.
 
 -> ⁂ <-
