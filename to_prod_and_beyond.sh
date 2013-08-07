@@ -22,7 +22,7 @@ rm -rf *
 
 # Dump in the exported html
 mv ../public/p2/* .
-mv ../redirects/* .
+cp -R ../redirects/* .
 
 git add .
 git add -u
