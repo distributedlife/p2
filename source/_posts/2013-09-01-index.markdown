@@ -1,0 +1,16 @@
+---
+layout: editorial
+title: A Word From The Editor
+modelDate: Issue 04, September 2013
+permalink: /issue04/index
+issuelink: /p2/issue04/index/
+lastIssue: /p2/issue03/index/
+nxt: /p2/issue04/3D-cardwall/
+cover: issue_4_cover.jpg
+category: index
+---
+
+
+If you'd like to get in touch, you can email us at: p2@thoughtworks.com
+
+Ryan Boucher, Editor in Chief
