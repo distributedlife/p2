@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Tech Leading..."
+permalink: /issue04/comic
+byline: Pennueng Chemsripong
+page: 5
+pagetotal: 11
+issue: Issue 04, September 2013
+issuelink: /p2/issue04/index/
+prev: /p2/issue04/build-gripes/
+nxt: /p2/issue04/testing-hard/
+authors:
+    - name: Pennueng Chemsripong
+      avatar: pete-avatar.jpg
+---
+
+
