@@ -2,14 +2,14 @@
 layout: post
 title: Credits
 subtitle: Who are the P2 Elves?
-permalink: /issue03/credits/
+permalink: /issue04/credits/
 byline: The P2 Elves
-page: 9
-pagetotal: 9
-issue: Issue 03, August 2013
-issuelink: /p2/issue03/index/
-prev: /p2/issue03/puzzle/
-nxt: /p2/issue03/index/
+page: 10
+pagetotal: 10
+issue: Issue 04, September 2013
+issuelink: /p2/issue04/index/
+prev: /p2/issue04/puzzle/
+nxt: /p2/issue04/index/
 authors:
     - name: by The P2 Elves
       avatar: pdp11-avatar.jpg
@@ -20,7 +20,7 @@ Ryan Boucher, Mike Gardiner, Rachel Laycock, Rebecca Parsons, Nick Thorpe
 
 **Writers**
 
-Musa Kurhula Bayoli, Anette Bergo, Ryan Boucher, David Braue, Pennueng Chemsripong, James Gregory, Rachel Laycock, Ali Lemer, Paige Mulholland, Nick Thorpe
+Ryan Boucher, Rachel Laycock, Paige Mulholland, Nick Thorpe
 
 **Art**
 
