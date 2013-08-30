@@ -1,0 +1,39 @@
+---
+layout: post
+title: Credits
+subtitle: Who are the P2 Elves?
+permalink: /issue03/credits/
+byline: The P2 Elves
+page: 9
+pagetotal: 9
+issue: Issue 03, August 2013
+issuelink: /p2/issue03/index/
+prev: /p2/issue03/puzzle/
+nxt: /p2/issue03/index/
+authors:
+    - name: by The P2 Elves
+      avatar: pdp11-avatar.jpg
+---
+**Editorial Committee**
+
+Ryan Boucher, Mike Gardiner, Rachel Laycock, Rebecca Parsons, Nick Thorpe
+
+**Writers**
+
+Musa Kurhula Bayoli, Anette Bergo, Ryan Boucher, David Braue, Pennueng Chemsripong, James Gregory, Rachel Laycock, Ali Lemer, Paige Mulholland, Nick Thorpe
+
+**Art**
+
+Greg Skinner, Pennueng Chemsripong
+
+**Site Design**
+
+Andrew Carr, Ryan Boucher, Mike Gardiner
+
+**Photo Credit**
+
+The cover photo is a selfie by Ryan Boucher drifting up the Rio Ucayali
+
+**Special Thanks**
+
+Alex Ong, John Stojanovski, Alister Scott

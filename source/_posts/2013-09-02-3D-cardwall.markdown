@@ -1,0 +1,25 @@
+---
+layout: post
+title: 3D Card Walls
+permalink: /issue04/3D-cardwall
+byline: Ryan Boucher
+page: 2
+pagetotal: 10
+issue: Issue 04, September 2013
+issuelink: /p2/issue04/index/
+prev: /p2/issue04/index/
+nxt: /p2/issue04/build-gripes/
+authors:
+    - name: 
+      twitter: 
+      avatar: 
+---
+
+
+-> ⁂ <-
+
+
+-> ⁂ <-
+
+
+
