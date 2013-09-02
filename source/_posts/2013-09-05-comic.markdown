@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Tech Leading..."
+title: "Fly on the Story Wall"
 permalink: /issue04/comic
 byline: Pennueng Chemsripong
-page: 5
-pagetotal: 11
+page: 4
+pagetotal: 10
 issue: Issue 04, September 2013
 issuelink: /p2/issue04/index/
 prev: /p2/issue04/build-gripes/
@@ -13,5 +13,4 @@ authors:
     - name: Pennueng Chemsripong
       avatar: pete-avatar.jpg
 ---
-
-
+![A/B Testing](/p2/images/comic/2.png)

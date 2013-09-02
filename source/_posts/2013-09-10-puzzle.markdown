@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Puzzle
+subtitle: Dealing with possibility
 permalink: /issue04/puzzle/
 byline: The P2 Elves
-page: 10
-pagetotal: 11
+page: 9
+pagetotal: 10
 issue: Issue 04, September 2013
 issuelink: /p2/issue04/index/
 prev: /p2/issue04/improve-this/
@@ -13,3 +14,20 @@ authors:
     - name: by The P2 Elves
       avatar: pdp11-avatar.jpg
 ---
+This month’s puzzle starts with four numbers and one blank: 2, 4, 6, 8, _. The four numbers represent part of a sequence. Your challenge is to work out what that sequence is. 
+
+You can suggest potential numbers for the blanks and those candidates will either be ‘not in the sequence’ in which case the blank is not filled, or is ‘in the sequence’. In the latter case the sequence is extended to include that new number and a new blank is created.
+
+As this is not an interactive puzzle –the P2 elves are very busy at all times of the year, I’d like you to work out what your guess is, and then based on the outcome, what the sequence **could** be. The first person with the fewest amount of guesses to prove the correct sequence is in their set of potential sequences, wins.
+
+*Submit your completed answers to p2@thoughtworks.com and the first correct answer wins a prize.*
+
+-> ⁂ <-
+
+Ok, so let’s look at last month’s puzzle. We had a great set of answers and a bug in the puzzle. We had missed a single clue that meant that for the first few days there were two possible answers to the deployment frequency. We elves had indicated that quarterly, monthly and weekly deployment frequencies existed. Based on the answers I got most people **assumed** the missing frequency was either daily or yearly.
+
+We published an updated that set it to daily. We regret doing that, as it was fascinating to see how people approached the uncertainty. It was *John Napier* who pointed out we missed a vital clue and he gave us two answers based on whether the missing clue was 'more than weekly' or 'less than quarterly'. Unfortunately both of his answers were slightly off. He still gets a prize for making us aware of the problem and trying to cater for it. *Wamika Singh* also gets a prize for the first correct answer.
+
+<div class='normal-gist'><script src="https://gist.github.com/distributedlife/0a0b8b9189908806a93f.js"></script></div>
+
+This month’s prize is: *The Retrospective Handbook* by Pat Kua.
