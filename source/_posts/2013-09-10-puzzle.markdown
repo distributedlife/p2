@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Puzzle
-subtitle: Dealing with possibility
+subtitle: Dealing with the possibilities
 permalink: /issue04/puzzle/
 byline: The P2 Elves
 page: 8
