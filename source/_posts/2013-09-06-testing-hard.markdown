@@ -5,7 +5,7 @@ subtitle: The level of testing you decide on re-enforces that level of testing a
 permalink: /issue04/testing-hard/
 byline: Ryan Boucher
 page: 5
-pagetotal: 10
+pagetotal: 9
 issue: Issue 04, September 2013
 issuelink: /p2/issue04/index/
 prev: /p2/issue04/comic/

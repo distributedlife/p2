@@ -5,7 +5,7 @@ subtitle:
 permalink: /issue04/build-gripes
 byline: Scott Robinson and Ryan Boucher
 page: 3
-pagetotal: 10
+pagetotal: 9
 issue: Issue 04, September 2013
 issuelink: /p2/issue04/index/
 prev: /p2/issue04/virus-three/

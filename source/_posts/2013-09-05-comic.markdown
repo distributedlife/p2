@@ -4,7 +4,7 @@ title: "Fly on the Story Wall"
 permalink: /issue04/comic
 byline: Pennueng Chemsripong
 page: 4
-pagetotal: 10
+pagetotal: 9
 issue: Issue 04, September 2013
 issuelink: /p2/issue04/index/
 prev: /p2/issue04/build-gripes/

@@ -4,7 +4,7 @@ title: "Polymorphism: The arms race heats up"
 permalink: /issue04/virus-three
 byline: John Stojanovski and Nick Thorpe
 page: 2
-pagetotal: 10
+pagetotal: 9
 issue: Issue 04, September 2013
 issuelink: /p2/issue04/index/
 prev: /p2/issue04/3d-cardwall/

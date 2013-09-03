@@ -3,11 +3,11 @@ layout: post
 title: Improve This
 permalink: /issue04/improve-this/
 byline: The P2 Elves
-page: 8
-pagetotal: 10
+page: 7
+pagetotal: 9
 issue: Issue 04, September 2013
 issuelink: /p2/issue04/index/
-prev: /p2/issue04/deployment-options/
+prev: /p2/issue04/rounded-bias/
 nxt: /p2/issue04/puzzle/
 authors:
     - name: by The P2 Elves
