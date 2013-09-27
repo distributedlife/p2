@@ -5,6 +5,7 @@ modelDate: Issue 04, September 2013
 permalink: /issue04/index
 issuelink: /p2/issue04/index/
 lastIssue: /p2/issue03/index/
+nextIssue: /p2/issue05/index/
 nxt: /p2/issue04/3d-cardwall/
 cover: issue_4_cover.jpg
 category: index

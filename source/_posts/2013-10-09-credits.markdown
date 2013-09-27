@@ -1,0 +1,35 @@
+---
+layout: post
+title: Credits
+subtitle: Who are the P2 Elves?
+permalink: /issue05/credits/
+byline: The P2 Elves
+page: 9
+pagetotal: 9
+issue: Issue 05, October 2013
+issuelink: /p2/issue05/index/
+prev: /p2/issue05/puzzle/
+nxt: /p2/issue05/index/
+authors:
+    - name: by The P2 Elves
+      avatar: pdp11-avatar.jpg
+---
+**Editorial Committee**
+
+Ryan Boucher, Rachel Laycock, Rebecca Parsons, Nick Thorpe
+
+**Writers**
+
+Ryan Boucher, Sarah Howe, Rachel Laycock, Paige Mulholland, Nick Thorpe
+
+**Site Design**
+
+Ryan Boucher, Andrew Carr, Mike Gardiner
+
+**Photo Credit**
+
+Old computers sitting around the Chicago office - William Kimmel
+
+**Special Thanks**
+
+Alex Ong, John Stojanovski

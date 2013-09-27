@@ -1,0 +1,21 @@
+---
+layout: editorial
+title: The October Issue
+modelDate: Issue 05, October 2013
+permalink: /issue05/index
+issuelink: /p2/issue05/index/
+lastIssue: /p2/issue04/index/
+nxt: /p2/issue05/3d-cardwall/
+cover: issue_5_cover.jpg
+category: index
+---
+Welcome to the October issue of P2 Magazine. This month we feature:
+
+- [I can tell you, but then you'd understand.](/p2/issue05/anonymous-functions)
+- [Cooking with Clojure](/p2/issue05/cooking-with-clojure)
+- [The future of deployment is remembering we have a past](/p2/issue05/deployment-options)
+- [Hiding in Plain Sight: Stealth](/p2/issue05/virus-four)
+- [Pattern Fun Facts: Decorator](/p2/issue05/pattern-fun-fact-decorator)
+- [BDD and legacy systems](/p2/issue05/bdd-on-legacy)
+- [Puzzle](/p2/issue05/puzzle)
+- [Credits](/p2/issue05/credits)
