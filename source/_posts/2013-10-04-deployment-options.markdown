@@ -4,12 +4,7 @@ title: The future of deployment is remembering we have a past
 subtitle: We have lots of deployment options now and some of them are shiny and new. It’s easy to forget that the best option might need to be dusted off from the bottom of the toolbox.
 permalink: /issue05/deployment-options
 byline: Alex Ong and Ryan Boucher
-page: 3
-pagetotal: 9
-issue: Issue 05, October 2013
-issuelink: /p2/issue05/index/
-prev: /p2/issue05/cooking-with-clojure/
-nxt: /p2/issue05/virus-four/
+category: issue05
 authors:
     - name: Alex Ong
       twitter: ong_a

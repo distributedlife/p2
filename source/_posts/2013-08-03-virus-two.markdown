@@ -3,12 +3,7 @@ layout: post
 title: "The Arms Race Continues: Encryption"
 permalink: /issue03/virus-two
 byline: John Stojanovski and Nick Thorpe
-page: 3
-pagetotal: 9
-issue: Issue 03, August 2013
-issuelink: /p2/issue03/index/
-prev: /p2/issue03/velocityraptors/
-nxt: /p2/issue03/user-group/
+category: issue03
 authors:
     - name: John Stojanovski
       twitter: jotsnhoj

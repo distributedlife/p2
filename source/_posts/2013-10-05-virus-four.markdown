@@ -3,12 +3,7 @@ layout: post
 title: "Hiding in Plain Sight: Stealth"
 permalink: /issue05/virus-four
 byline: John Stojanovski and Nick Thorpe
-page: 4
-pagetotal: 9
-issue: Issue 05, October 2013
-issuelink: /p2/issue05/index/
-prev: /p2/issue05/deployment-options/
-nxt: /p2/issue05/pattern-fun-fact-decorator/
+category: issue05
 authors:
     - name: John Stojanovski
       twitter: jotsnhoj

@@ -4,12 +4,7 @@ title: First DOS Virus
 subtitle: "John Stojanovski brings us a history of the arms race between virus engineers and anti-virus reverse-engineers. In this first instalment: a first-person account of a personal encounter with the first DOS virus."
 permalink: /issue02/virus-one
 byline: Nick Thorpe
-page: 1
-pagetotal: 7
-issue: Issue 02, July 2013
-issuelink: /p2/issue02/index/
-prev: /p2/issue02/index/
-nxt: /p2/issue02/mobile/
+category: issue02
 authors:
     - name: John Stojanovski
       twitter: jotsnhoj

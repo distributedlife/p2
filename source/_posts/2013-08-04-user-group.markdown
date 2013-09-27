@@ -4,12 +4,7 @@ title: User Groups
 subtitle: Looking for a way to increase both your knowledge and your social circle? Anette Bergo talks to Ali Lemer about the trials and tribulations – and the rewards – of starting up a user group.
 permalink: /issue03/user-group
 byline: Anette Bergo and Ali Lemer
-page: 4
-pagetotal: 9
-issue: Issue 03, August 2013
-issuelink: /p2/issue03/index/
-prev: /p2/issue03/virus-two/
-nxt: /p2/issue03/comic/
+category: issue03
 authors:
     - name: Anette Bergo
       twitter: anettebgo

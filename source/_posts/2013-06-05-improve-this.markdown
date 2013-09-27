@@ -4,12 +4,7 @@ title: Improve This
 subtitle:
 permalink: /issue01/improve-this/
 byline: The P2 Elves
-page: 4
-pagetotal: 6
-issue: Issue 01, June 2013
-issuelink: /p2/issue01/index/
-prev: /p2/issue01/the-king-is-dead/
-nxt: /p2/issue01/puzzle/
+category: issue01
 authors:
     - name: by The P2 Elves
       avatar: pdp11-avatar.jpg

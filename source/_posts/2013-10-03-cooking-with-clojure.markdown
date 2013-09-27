@@ -3,12 +3,7 @@ layout: post
 title: Cooking with Clojure
 permalink: /issue05/cooking-with-clojure
 byline: Chris Ford
-page: 2
-pagetotal: 9
-issue: Issue 05, October 2013
-issuelink: /p2/issue05/index/
-prev: /p2/issue05/anonymous-functions/
-nxt: /p2/issue05/deployment-options/
+category: issue05
 authors:
     - name: Chris Ford
       twitter: ctford

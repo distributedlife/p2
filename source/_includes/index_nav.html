@@ -1,0 +1,12 @@
+<nav class="paginate">
+	{% for post in site.categories[page.key] reversed %}
+		{% if forloop.first %}
+			<a id="next" href="/p2{{post.url}}" class="next">&#9654;</a>
+		    <script type="text/javascript">
+		    	key('right', function(){
+		        	window.open($("#next")[0].href, '_self', false);
+		        });
+		    </script>
+		{% endif %}
+	{% endfor %}
+</nav>

@@ -4,12 +4,7 @@ title: BDD and Legacy Systems
 subtitle: Behaviour driven development, by itself, doesn’t work on legacy systems. A key ingredient is still missing and I’m going to talk about what that is.
 permalink: /issue05/bdd-on-legacy/
 byline: Ryan Boucher
-page: 6
-pagetotal: 9
-issue: Issue 05, October 2013
-issuelink: /p2/issue05/index/
-prev: /p2/issue05/pattern-fun-fact-decorator/
-nxt: /p2/issue05/puzzle/
+category: issue05
 authors:
     - name: Ryan Boucher
       twitter: distributedlife

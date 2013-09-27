@@ -4,12 +4,7 @@ title: Puzzle
 subtitle: The Solution to dealing with possibilities
 permalink: /issue05/puzzle/
 byline: The P2 Elves
-page: 8
-pagetotal: 9
-issue: Issue 05, October 2013
-issuelink: /p2/issue05/index/
-prev: /p2/issue05/bdd-on-legacy/
-nxt: /p2/issue05/credits/
+category: issue05
 authors:
     - name: by The P2 Elves
       avatar: pdp11-avatar.jpg

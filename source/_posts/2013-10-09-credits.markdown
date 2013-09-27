@@ -4,12 +4,7 @@ title: Credits
 subtitle: Who are the P2 Elves?
 permalink: /issue05/credits/
 byline: The P2 Elves
-page: 9
-pagetotal: 9
-issue: Issue 05, October 2013
-issuelink: /p2/issue05/index/
-prev: /p2/issue05/puzzle/
-nxt: /p2/issue05/index/
+category: issue05
 authors:
     - name: by The P2 Elves
       avatar: pdp11-avatar.jpg

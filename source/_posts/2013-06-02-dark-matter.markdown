@@ -4,12 +4,7 @@ title: Uncovering Your Data's Dark Matter
 subtitle: Want to see deeper patterns in your data? Try looking at it in a new way, says Jen Smith
 permalink: /issue01/dark-matter/
 byline: Jen Smith
-page: 1
-pagetotal: 6
-issue: Issue 01, June 2013
-issuelink: /p2/issue01/index/
-prev: /p2/issue01/index/
-nxt: /p2/issue01/big-data/
+category: issue01
 authors:
     - name: Jen Smith
       twitter: jennifersmithco

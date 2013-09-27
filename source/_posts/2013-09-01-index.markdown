@@ -3,11 +3,11 @@ layout: editorial
 title: A Word From The Editor
 modelDate: Issue 04, September 2013
 permalink: /issue04/index
-issuelink: /p2/issue04/index/
 lastIssue: /p2/issue03/index/
 nextIssue: /p2/issue05/index/
-nxt: /p2/issue04/3d-cardwall/
 cover: issue_4_cover.jpg
+issue: "04"
+key: issue04
 category: index
 ---
 Spring has arrived here in Australia and apocryphally Spring is a time for cleaning away the last vestiges of Winter. In the fourth P2 issue we are not about brushing away winter but stale thoughts. So we take a look at *3D story walls* and wonder if the current state of *build systems* is as good as it can be.

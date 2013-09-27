@@ -4,12 +4,7 @@ title: "Pattern Fun Facts: Decorator"
 subtitle: "In pattern fun facts we take a look a pattern and tell you something you didn’t know. This month: The decorator pattern can help you do incremental delivery."
 permalink: /issue05/pattern-fun-fact-decorator
 byline: Ryan Boucher
-page: 5
-pagetotal: 9
-issue: Issue 05, October 2013
-issuelink: /p2/issue05/index/
-prev: /p2/issue05/virus-four/
-nxt: /p2/issue05/bdd-on-legacy/
+category: issue05
 authors:
     - name: Ryan Boucher
       twitter: distributedlife

@@ -4,12 +4,7 @@ title: Build Gripes, Part I
 subtitle: 
 permalink: /issue04/build-gripes
 byline: Scott Robinson and Ryan Boucher
-page: 3
-pagetotal: 9
-issue: Issue 04, September 2013
-issuelink: /p2/issue04/index/
-prev: /p2/issue04/virus-three/
-nxt: /p2/issue04/comic/
+category: issue04
 authors:
     - name: Scott Robinson
       avatar: scott-avatar.jpg

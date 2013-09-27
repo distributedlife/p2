@@ -1,18 +1,47 @@
 <nav class="paginate">
-  {% if page.prev %}
-    <a id="prev" href="{{ page.prev }}" class="prev">&#9664;</a>
-    <script type="text/javascript">
-      key('left', function() {
-        window.open($("#prev")[0].href, '_self', false);
-      });
-    </script>
-  {% endif %}
-  {% if page.nxt %}
-    <a id="next" href="{{ page.nxt }}" class="next">&#9654;</a>
-    <script type="text/javascript">
-      key('right', function(){
-        window.open($("#next")[0].href, '_self', false);
-      });
-    </script>
-  {% endif %}
+  {% for post in site.categories[page.category] reversed %}
+    {% if next == true %}
+      <a id="next" href="/p2{{post.url}}" class="next">&#9654;</a>
+      <script type="text/javascript">
+        key('right', function(){
+          window.open($("#next")[0].href, '_self', false);
+        });
+      </script>
+      {% assign next = false %}
+    {% endif %}
+
+    {% if post.title == page.title %}
+      {% if forloop.first %}
+        <a id="prev" href="/p2/{{ page.category | replace:" ","-"}}/index" class="prev">&#9664;</a>
+        <script type="text/javascript">
+          key('left', function() {
+            window.open($("#prev")[0].href, '_self', false);
+          });
+        </script>
+      {% else %}
+        <a id="prev" href="/p2{{ prev.url }}" class="prev">&#9664;</a>
+        <script type="text/javascript">
+          key('left', function() {
+            window.open($("#prev")[0].href, '_self', false);
+          });
+        </script>
+      {% endif %}
+
+      {% unless forloop.last %}
+        {% assign next = true %}
+      {% endunless %}
+
+      {% if forloop.last %}
+        <a id="next" href="/p2/{{ page.category | replace:" ","-"}}/index" class="next">&#9654;</a>
+        <script type="text/javascript">
+          key('right', function(){
+            window.open($("#next")[0].href, '_self', false);
+          });
+        </script>
+      {% endif %}
+
+    {% endif %}
+   
+    {% assign prev = post %}
+  {% endfor %}
 </nav>

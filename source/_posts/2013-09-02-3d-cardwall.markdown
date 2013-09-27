@@ -3,12 +3,7 @@ layout: post
 title: 3D Card Walls
 permalink: /issue04/3d-cardwall
 byline: Paige Mulhulland and Ryan Boucher
-page: 1
-pagetotal: 9
-issue: Issue 04, September 2013
-issuelink: /p2/issue04/index/
-prev: /p2/issue04/index/
-nxt: /p2/issue04/virus-three/
+category: issue04
 authors:
     - name: Nick Thorpe
       twitter: agileboardhacks

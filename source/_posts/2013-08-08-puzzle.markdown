@@ -3,12 +3,7 @@ layout: post
 title: Puzzle
 permalink: /issue03/puzzle/
 byline: The P2 Elves
-page: 8
-pagetotal: 9
-issue: Issue 03, August 2013
-issuelink: /p2/issue03/index/
-prev: /p2/issue03/test-augmentation/
-nxt: /p2/issue03/credits/
+category: issue03
 authors:
     - name: by The P2 Elves
       avatar: pdp11-avatar.jpg

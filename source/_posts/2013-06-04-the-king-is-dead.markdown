@@ -4,12 +4,7 @@ title: The King Is Dead, Long Live The King
 subtitle: A cautionary tale
 permalink: /issue01/the-king-is-dead/
 byline: Ryan Boucher
-page: 3
-pagetotal: 6
-issue: Issue 01, June 2013
-issuelink: /p2/issue01/index/
-prev: /p2/issue01/big-data/
-nxt: /p2/issue01/improve-this/
+category: issue01
 authors:
     - name: Ryan Boucher
       twitter: distributedlife

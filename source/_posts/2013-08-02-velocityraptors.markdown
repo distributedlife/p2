@@ -3,12 +3,7 @@ layout: post
 title: On Velocityraptors
 permalink: /issue03/velocityraptors
 byline: Ryan Boucher
-page: 2
-pagetotal: 9
-issue: Issue 03, August 2013
-issuelink: /p2/issue03/index/
-prev: /p2/issue03/localisation-africa/
-nxt: /p2/issue03/virus-two/
+category: issue03
 authors:
     - name: Ryan Boucher
       twitter: distributedlife

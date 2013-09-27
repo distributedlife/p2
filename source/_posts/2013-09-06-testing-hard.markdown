@@ -4,12 +4,7 @@ title: Testing makes it hard to test
 subtitle: The level of testing you decide on re-enforces that level of testing and makes it harder to test the system at both lower and higher levels.
 permalink: /issue04/testing-hard/
 byline: Ryan Boucher
-page: 5
-pagetotal: 9
-issue: Issue 04, September 2013
-issuelink: /p2/issue04/index/
-prev: /p2/issue04/comic/
-nxt: /p2/issue04/rounded-bias/
+category: issue04
 authors:
     - name: Ryan Boucher
       twitter: distributedlife

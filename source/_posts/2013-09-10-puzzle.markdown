@@ -4,12 +4,7 @@ title: Puzzle
 subtitle: Dealing with the possibilities
 permalink: /issue04/puzzle/
 byline: The P2 Elves
-page: 8
-pagetotal: 9
-issue: Issue 04, September 2013
-issuelink: /p2/issue04/index/
-prev: /p2/issue04/improve-this/
-nxt: /p2/issue04/credits/
+category: issue04
 authors:
     - name: by The P2 Elves
       avatar: pdp11-avatar.jpg

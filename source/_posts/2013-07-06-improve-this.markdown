@@ -3,12 +3,7 @@ layout: post
 title: Improve This
 permalink: /issue02/improve-this/
 byline: The P2 Elves
-page: 5
-pagetotal: 7
-issue: Issue 02, July 2013
-issuelink: /p2/issue02/index/
-prev: /p2/issue02/continuous-design/
-nxt: /p2/issue02/puzzle/
+category: issue02
 authors:
     - name: by The P2 Elves
       avatar: pdp11-avatar.jpg

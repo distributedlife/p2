@@ -3,11 +3,11 @@ layout: editorial
 title: A Word From The Editor
 modelDate: Issue 03, August 2013
 permalink: /issue03/index
-issuelink: /p2/issue03/index/
 lastIssue: /p2/issue02/index/
 nextIssue: /p2/issue04/index/
-nxt: /p2/issue03/localisation-africa/
 cover: issue_3_cover.jpg
+issue: "03"
+key: issue03
 category: index
 ---
 I remember working on a project where some team members were dissatisfied with the daily stand-up. They didn’t feel like they were getting any value out  of it. For the next iteration, the team held no stand-ups. During the retrospective, we talked about what information we hadn’t shared with each other that we should have. Stand-up was brought back the following iteration to share just that information.

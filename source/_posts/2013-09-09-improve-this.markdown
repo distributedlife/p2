@@ -3,12 +3,7 @@ layout: post
 title: Improve This
 permalink: /issue04/improve-this/
 byline: The P2 Elves
-page: 7
-pagetotal: 9
-issue: Issue 04, September 2013
-issuelink: /p2/issue04/index/
-prev: /p2/issue04/rounded-bias/
-nxt: /p2/issue04/puzzle/
+category: issue04
 authors:
     - name: by The P2 Elves
       avatar: pdp11-avatar.jpg

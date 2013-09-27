@@ -3,11 +3,11 @@ layout: editorial
 title: A Word From The Editor
 modelDate: Issue 02, July 2013
 permalink: /issue02/index
-issuelink: index
 nextIssue: /p2/issue03/index/
 lastIssue: /p2/issue01/index/
-nxt: /p2/issue02/virus-one/
 cover: issue_2_cover.jpg
+issue: "02"
+key: issue02
 category: index
 ---
 As I write this, I’m thinking about the threads that run through this edition of P2. We don’t plan a theme for each edition, but they do emerge. This time there are two: iterative approaches to software development, and personal stories.

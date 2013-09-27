@@ -3,12 +3,7 @@ layout: post
 title: Test Augmentation
 permalink: /issue03/test-augmentation/
 byline: Ryan Boucher
-page: 7
-pagetotal: 9
-issue: Issue 03, August 2013
-issuelink: /p2/issue03/index/
-prev: /p2/issue03/showcase/
-nxt: /p2/issue03/puzzle/
+category: issue03
 authors:
     - name: Ryan Boucher
       twitter: distributedlife

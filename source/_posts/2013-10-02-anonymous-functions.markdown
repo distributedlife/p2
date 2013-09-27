@@ -1,15 +1,10 @@
 ---
 layout: post
-title: I can tell you, but then you'd understand.
+title: I can tell you, but then you'd understand
 permalink: /issue05/anonymous-functions
 subtitle: On anonymous functions, code readability and design erosion.
 byline: Ryan Boucher
-page: 1
-pagetotal: 9
-issue: Issue 05, September 2013
-issuelink: /p2/issue05/index/
-prev: /p2/issue05/index/
-nxt: /p2/issue05/cooking-with-clojure
+category: issue05
 authors:
     - name: Ryan Boucher
       twitter: distributedlife

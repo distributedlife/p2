@@ -1,6 +1,11 @@
 <nav class="issues">
     <ul class="clearfix">
-        <li class="active"><a href="{{page.issuelink}}">{{page.issue}}</a></li>
-        <li class="pull-right">Page {{ page.page }} / {{ page.pagetotal}} </li>
+        <li class="active"><a href="/p2/{{page.category}}/index">{{page.category}}, {{page.date | date:"%B %Y"}}</a></li>
+        <li class="pull-right">Page
+        {% for post in site.categories[page.category] reversed %}
+            {% if post.title == page.title %}
+            	{{forloop.index}} / {{forloop.length}}
+            {% endif %}
+        {% endfor %}
     </ul>
 </nav>

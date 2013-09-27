@@ -4,12 +4,7 @@ title: Continuous Design and the NoPSD Movement
 subtitle:
 permalink: /issue02/continuous-design/
 byline: Ryan Boucher and Mike Gardiner
-page: 4
-pagetotal: 7
-issue: Issue 02, July 2013
-issuelink: /p2/issue02/index/
-prev: /p2/issue02/factory/
-nxt: /p2/issue02/improve-this/
+category: issue02
 authors:
     - name: Andrew Carr
       twitter: 2metres
