@@ -70,11 +70,11 @@ Depending on the flexibility you want in making your application and system chan
 
 ### File Copy Model
 
-The most simple of these is the File Copy Model using rsync or Capistrano. "It's very fast and you can get from development to production in seconds" says Alex. This simple approach is fast - however has some disadvantages. "The downside is that you need direct access to production systems, and this encourages snowflakes because you just log in and fix that one thing." This approach also scales poorly as some other mechanism needs to build the base machine before the deployment package is deployed.
+The most simple of these is the File Copy Model using rsync or Capistrano. "It's very fast and you can get from development to production in seconds" says Alex. This simple approach is fast - however has some disadvantages. "The downside is that you need direct access to production systems, and this encourages snowflakes because you can just log in and fix that one thing." This approach can also scale poorly as some other mechanism needs to build the base machine before the deployment occurs.
 
 ### Package Deploys
 
-Deployment should require as much effort and configuration as as ‘yum install business-value’. The package gives you this deployment simplicity whilst still retaining control over what needs to happen. "This is what we did", says Alex “We wrote a shell script and wrapped it in an RPM to simplify deployment”. The challenge of the package deployment process is that you will need a different package for each operating system you are targeting.
+Deployment should require as much effort and configuration as as ‘yum install business-value’. The package gives you this deployment simplicity whilst still retaining control over what needs to happen. "This is what we did", says Alex “We wrote a shell script and wrapped it in an RPM to simplify deployment”. A challenge of this package deployment process is that you may need a different package for each operating system you are targeting.
 
 ### VM Images
 
