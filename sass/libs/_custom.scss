@@ -71,6 +71,21 @@ body{
 	}
 }
 .table-of-contents{
+	ul {
+		// list-style: none;
+
+		li {
+			padding-left: 10px;
+		}
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
 
 	article{
 		margin: em-font(15px) 0;

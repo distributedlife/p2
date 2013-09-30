@@ -9,9 +9,9 @@ authors:
     - name: by The P2 Elves
       avatar: pdp11-avatar.jpg
 ---
-No new puzzle this month. Let’s get straight into the answer from last month. Judging from the answers, this one wasn’t as explained as well as it could have been. So, I’ll go through what was in our brains when we wrote it.
+No new puzzle this month. Let’s get straight into the answer from last month. Judging from the answers, this one wasn’t as explained as well as it could have been. So, we’ll go through what was in our brains when we wrote it.
 
-There is a sequence that starts with: 2, 4, 6, 8 and is followed by a blank. There are **many** numbers that **could** follow. At oeis.org there are about 200 sequences, many obscure, some irrelevant, that start with 2, 4, 6, 8. From analysis of these obscure sequences none continue to 3, 6, 13 or 26. This will be relevant later. 
+There is a sequence that starts with: 2, 4, 6, 8 and is followed by a blank. There are **many** numbers that **could** follow. We weren't aware of this when we wrote the puzzle but at oeis.org there are about 200 sequences, many obscure, some irrelevant, that start with 2, 4, 6, 8. I'm going to include the puzzle solution factoring in all of these potential, mostly obscure, sequences. From analysis of these obscure sequences, none continue to 3, 6, 13 or 26. This will be relevant later. 
 
 Of all the numbers that can follow they fall into **three** categories. The number could be larger, smaller or the same as the last. What we are trying to do is to reduce our options and we’re using a technique known as equivalence partitioning.
 

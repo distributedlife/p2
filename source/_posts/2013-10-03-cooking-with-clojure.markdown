@@ -7,7 +7,7 @@ category: issue05
 authors:
     - name: Chris Ford
       twitter: ctford
-      avatar: chris-avatar.jpg
+      avatar: chris-avatar.jpeg
 ---
 When I speak to developers about functional programming, they're often interested, but are sometimes concerned that functional programming might make it hard to model the "real world". The theory goes that the everyday world is full of objects that evolve over time, so the most natural way to describe it is using object-oriented design. 
 
