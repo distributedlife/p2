@@ -1,38 +1,26 @@
-## What is Octopress?
+# P2 Magazine
+## How to push to your own staging
 
-Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
+1. Fork the `distributedlife/p2` repository
+1. Checkout `your_fork/p2` and make sure `origin` is the name of the remote
+1. Ensure there is a branch called `gh-pages` in your new fork
+1. **be careful**: The script `rm -rf *` the `../public` and `../redirects` folder from wherever `publish.sh` is called. Make sure you don't have such folders.
+1. `./publish.sh "some commit message"`
+ - This script will call `rake generate`
+ - It will delete the `../public` and `../redirects` folders
+ - It will then copy `public` and `redirects` up a directory
+ - It will then checkout the `gh-pages` branch
+ - It does a `pull --rebase`
+ - It will `rm -rf *` the entire repo
+ - It will copy back in the `public` and `redirects`
+ - It adds all the things into the repo
+ - It makes a commit using your message
+ - It pushes to `origin gh-pages`
+ - It checks out source.
 
-1. **Octopress sports a clean responsive theme** written in semantic HTML5, focused on readability and friendliness toward mobile devices.
-2. **Code blogging is easy and beautiful.** Embed code (with [Solarized](http://ethanschoonover.com/solarized) styling) in your posts from gists, jsFiddle or from your filesystem.
-3. **Third party integration is simple** with built-in support for Pinboard, Delicious, GitHub Repositories, Disqus Comments and Google Analytics.
-4. **It's easy to use.** A collection of rake tasks simplifies development and makes deploying a cinch.
-5. **Ships with great plug-ins** some original and others from the Jekyll community &mdash; tested and improved.
+# How to push to PRODUCTION
+We publish a new issue on the first Tuesday of each month.
 
-
-## Documentation
-
-Check out [Octopress.org](http://octopress.org/docs) for guides and documentation.
-
-
-## Contributing
-
-[![Build Status](https://travis-ci.org/imathis/octopress.png?branch=master)](https://travis-ci.org/imathis/octopress)
-
-We love to see people contributing to Octopress, whether it's a bug report, feature suggestion or a pull request. At the moment, we try to keep the core slick and lean, focusing on basic blogging needs, so some of your suggestions might not find their way into Octopress. For those ideas, we started a [list of 3rd party plug-ins](https://github.com/imathis/octopress/wiki/3rd-party-plugins), where you can link your own Octopress plug-in repositories. For the future, we're thinking about ways to easier add them them into our main releases.
-
-
-## License
-(The MIT License)
-
-Copyright © 2009-2013 Brandon Mathis
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-#### If you want to be awesome.
-- Proudly display the 'Powered by Octopress' credit in the footer.
-- Add your site to the Wiki so we can watch the community grow.
+1. Make sure you have push rights to `thoughtworks/p2`
+1. Add a remote called `tw` that goes to `thoughtworks/p2`
+1. Run the `./to_prod_and_beyond.sh`. It's exactly the same as the `publish.sh` script except the repo is hard-coded to `tw gh-pages`
