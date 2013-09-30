@@ -8,3 +8,6 @@ issue: "05"
 key: issue05
 category: index
 ---
+Welcome to the October issue of P2 Magazine. This issue marks the final one in which I'll be Editor in Chief. The next two issues will see a transition from myself to Rachel Laycock. From next year I'll be away on leave for twelve months.
+
+Ryan Boucher, Editor in Chief
