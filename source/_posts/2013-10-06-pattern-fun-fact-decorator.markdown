@@ -18,7 +18,7 @@ Later, there comes a requirement where you want start making a copy of messages 
 
 <div class='normal-gist'><code id="gist-6724242" data-file="2.java"></code></div>
 
-Now, because we’re in Java and the factory pattern is prolific. You’re factory just needs to new up a <span class='inline-code'>MessageCopier</span> passing in the instance of the <span class='inline-code'>MessageSender</span>. Behaviour extended.
+Now, because we’re in Java and the factory pattern is prolific. Your factory just needs to new up a <span class='inline-code'>MessageCopier</span> passing in the instance of the <span class='inline-code'>MessageSender</span>. Behaviour extended.
 
 <div class='normal-gist'><code id="gist-6724242" data-file="3.java"></code></div>
 
