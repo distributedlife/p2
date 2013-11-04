@@ -1,0 +1,16 @@
+---
+layout: editorial
+title: A Word From The Editors
+modelDate: Issue 06, November 2013
+permalink: /issue06/index
+lastIssue: /p2/issue05/index/
+cover: issue_6_cover.jpg
+issue: "06"
+key: issue06
+category: index
+---
+Welcome to the November issue of P2 Magazine. This month we bring you our biggest issue, and widest variety of authors, to date.
+
+Enjoy,
+
+Ryan Boucher & Rachel Laycock, Editors in Chief

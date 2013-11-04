@@ -3,6 +3,7 @@ layout: editorial
 title: The October Issue
 permalink: /issue05/index
 lastIssue: /p2/issue04/index/
+nextIssue: /p2/issue06/index/
 cover: issue_5_cover.jpg
 issue: "05"
 key: issue05

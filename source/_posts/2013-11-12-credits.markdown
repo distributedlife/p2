@@ -1,0 +1,34 @@
+---
+layout: post
+title: Credits
+subtitle: Who are the P2 Elves?
+permalink: /issue06/credits/
+byline: The P2 Elves
+category: issue06
+authors:
+    - name: by The P2 Elves
+      avatar: pdp11-avatar.jpg
+---
+**Editorial Committee**
+
+Ryan Boucher, Rachel Laycock, Rebecca Parsons, Sarah Howe
+
+**Writers**
+
+Musa Kurhula Baloyi, Ryan Boucher, Ian Cartwright, Sarah Howe, Rachel Laycock, Scott Robinson, Adam Scott, Nick Thorpe
+
+**Art**
+
+Ryan Boucher
+
+**Site Design**
+
+Ryan Boucher, Andrew Carr, Mike Gardiner
+
+**Photo Credit**
+
+The Great Wall of China - Rachel Laycock
+
+**Special Thanks**
+
+Sean Ho, Adam Monago, Scott Robinson, John Stojanovski

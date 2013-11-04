@@ -4,12 +4,7 @@ title: Localisation & Digitisation in Africa
 subtitle: My Experiences Localising and Digitising Tswa-Ronga material
 permalink: /issue03/localisation-africa
 byline: Musa Kurhula Baloyi, Rachel Laycock and Paige Mulholland
-page: 1
-pagetotal: 9
-issue: Issue 03, August 2013
-issuelink: /p2/issue03/index/
-prev: /p2/issue03/index/
-nxt: /p2/issue03/velocityraptors/
+category: issue03
 authors:
     - name: Musa Kurhula Baloyi
       avatar: musa-avatar.jpg
