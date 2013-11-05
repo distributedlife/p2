@@ -8,9 +8,7 @@ category: issue06
 authors:
     - name: Ian Cartwright
       avatar: ian-avatar.jpg
-    - name: Rachel Laycock
-      twitter: rachellaycock
-      avatar: rachel-avatar.jpg
+
 ---
 A team working well is one where the developers not only build the code, but also the automation for deploying the software and the ability to monitor and support it. Done right this means the team is doing DevOps **and** Continuous Delivery. Right from day one they are building out Continuous Integration, coding the deployment mechanisms and setting up dashboards and alerts for the deployed code. When they showcase code, it is code that **has** been deployed to a realistic environment, so if required that code really could be deployed. 
 
