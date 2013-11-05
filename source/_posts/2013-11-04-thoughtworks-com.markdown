@@ -21,7 +21,7 @@ Setting himself up as the ultimate customer, Trevor Mather, our CEO at the time,
  
 The project was initiated 18 months ago, at a time when the website was undergoing heavy development for the Join recruitment website. It was clear from the beginning that we were starting from scratch in terms of the core building blocks of a website. We had limited SEO, a poor design, no content strategy – and around 20 microsites that had been created by ThoughtWorkers over the years.
 
-![So many microsites](/p2/images/derp.png)
+![So many microsites](/p2/images/p2-mirco.jpg)
 
 We saw an opportunity to align with the ThoughtWorks vision of bettering humanity through software, and helping drive the creation of a socially and economically just world - by creating a site that spoke to this, one that we are all proud of. We audaciously felt that we had some pretty awesome content to get out in the universe – and so, set ourselves a goal of becoming a place for top technology content. To become a site that we were proud of, and to be a place for top technology content - we first needed to merge all the microsites into one clean, cohesive site - this was one of our initial goals. We also needed to make our site responsive, in line with the recent work we’d been doing in the mobile space. 
 
