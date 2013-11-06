@@ -23,6 +23,7 @@ The project was initiated 18 months ago, at a time when the website was undergoi
 
 ![So many microsites](/p2/images/tw.com/microsites1.jpg)
 ![So many microsites](/p2/images/tw.com/microsites2.jpg)
+![So many microsites](/p2/images/p2-micro.jpg)
 
 We saw an opportunity to align with the ThoughtWorks vision of bettering humanity through software, and helping drive the creation of a socially and economically just world - by creating a site that spoke to this, one that we are all proud of. We audaciously felt that we had some pretty awesome content to get out in the universe – and so, set ourselves a goal of becoming a place for top technology content. To become a site that we were proud of, and to be a place for top technology content - we first needed to merge all the microsites into one clean, cohesive site - this was one of our initial goals. We also needed to make our site responsive, in line with the recent work we’d been doing in the mobile space. 
 
