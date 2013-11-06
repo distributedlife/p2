@@ -10,7 +10,7 @@ authors:
       twitter: distributedlife
       avatar: ryan-avatar.jpg
 ---
-If I could pick one thing in 'agile' that people refuse to believe: it is that the stories they are working on could be smaller and simpler. I think the reverse is true. A good thing for us all otherwise this article would get very awkward, very quickly. I know of a number of ways in which I can reduce the size of the stories my teams are working on. Today I'll show you four. Before I show you these techniques, let's recap why we would want to make stories smaller.
+If I could pick one thing in 'agile' that people refuse to believe: it is that the stories they are working on could be smaller and simpler. I am a believer though. A good thing for us all otherwise this article would get very awkward, very quickly. I know of a number of ways in which I can reduce the size of the stories my teams are working on. Today I'll show you four. Before I show you these techniques, let's recap why we would want to make stories smaller.
 
 ### Why do we split stories?
 If your answer to this question is: "to make the story fit within an iteration"; then you're missing the point. What happens here is that your stories trend towards the size of your iteration: an arbitrary length of time. We should be splitting our story to make it less complex, to help us deliver the most valuable parts first and, to give us the best chance of capitalising on emergent design.
@@ -61,11 +61,95 @@ The steps are: download data, build the index, searching and search results and,
 
 On either side of this column are two more columns. The leftmost is labelled 'No Frills' and the rightmost is 'Bells and Whistles'. 
 
-![Image](/path/to/image)
+<div class="inline-table">
+<table>
+	<thead>
+		<tr>
+			<th>No Frills</th>
+			<th>&nbsp;</th>
+			<th>Process</th>
+			<th>&nbsp;</th>
+			<th>Bells & Whistles</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
 
 The team then brainstorms how to do each of the steps more simply. Sometimes this results in shiny new features. We put them on the right hand size. The shinier they are the more to the right they go. When we find a simplest solution, we put it on the left most column. After such a session we might end up with the following:
 
-![Image](/path/to/image)
+<div class="inline-table">
+<table>
+	<thead>
+		<tr>
+			<th>No Frills</th>
+			<th></th>
+			<th>Process</th>
+			<th></th>
+			<th>Bells & Whistles</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>	
+<td>Manual copy from computer to device</td>
+<td>Embedded in package</td>
+<td>download data</td>
+<td>Restart failures</td>
+<td>auto-sync</td>
+		</tr>
+		<tr>
+<td>alphabetic</td>
+<td>subject index</td>
+<td>build the index</td>
+<td>tailored index</td>
+<td></td>
+		</tr>
+		<tr>
+<td>no search</td>
+<td>exact match only</td>
+<td>search & results</td>
+<td>partial match</td>
+<td>fuzzy matching</td>
+		</tr>
+		<tr>
+<td>no formatting</td>
+<td>basic formatting</td>
+<td>display page</td>
+<td>multiple orientations</td>
+<td>custom styling</td>
+		</tr>
+	</tbody>
+</table>
+</div>
 
 We take the leftmost column as how we will implement the first story. In this case we'll manually copy the data on to the device. We'll display an alphabetic list of records with no searching allowed. Each article displayed will just have plain text without formatting. It's not a going to shift a million units. But you can build that quickly, demo it, get feedback and then start picking up new stories to play.
 

@@ -586,3 +586,23 @@ footer {
     padding: 0;
 }
 
+.inline-table {
+	font-size: 0.8em;
+
+	table {
+		width: 100%;
+		border: 1px dotted grey;
+	}
+
+	td {
+		padding: 0.2em;
+		border: 1px dotted grey;	
+	}
+
+	th {
+		text-align: center;
+		font-weight: 700;
+		min-width: 20px;
+		border: 1px dotted grey;
+	}
+}
