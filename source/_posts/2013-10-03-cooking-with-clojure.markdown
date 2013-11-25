@@ -97,6 +97,6 @@ To prepare a receipe, we just need to take the final state:
 
 One advantage of representing a process like this is that we are modelling each state explicitly. For example, if we wanted to calculate what ingredients had been added at a certain time in the preparation, we could. If our dish had been a mutable object, then each time we performed a new step in the recipe the old state would have been lost:
 
-<div class='normal-gist'><code id="gist-6724018" data-file="18.clj"></code></div>
+<div class='normal-gist'><code id="gist-6724018" data-file="19.clj"></code></div>
 
 Paradoxically, by avoiding changing individual values, functional programming languages make representing change itself easier. Though functional programming can be used in any domain that object-oriented programming can, I have personally found that domains where time and change are important concepts are where functional programming languages like Clojure really shine.
