@@ -1,0 +1,20 @@
+---
+layout: post
+title: Puzzle
+subtitle: Intersections Answer
+permalink: /issue07/puzzle/
+byline: The P2 Elves
+category: issue07
+authors:
+    - name: by The P2 Elves
+      avatar: pdp11-avatar.jpg
+---
+Last month we had a puzzle where we looked at how we could remove the uncertainty of intersections when the light goes orange and the driver isn’t at that perfect distance where it’s hard to know whether one should keep going or brake.
+
+Chris Tan suggested we replace it with a roundabout. If you see a car stop, if you don’t continue. Kevin Yeung suggested was that we put a counter on the lights to indicate how much time we have left to get across the intersection. This may give you more information and make the decision easier but we think could be made simpler by removing the decision altogether.
+
+This was Fiona Coath’s three suggestions: The most expensive was a network of bridges and tunnels whereby traffic doesn’t need to stop to cross. Next she suggested self driving cars that communicated with each other to resolve the problem and remove the need for traffic lights altogether.
+
+Her simplest and, we feel, best solution was to paint a line on the road at the point which you can still make it through the orange light at the speed limit. If you passed the line when the light goes orange, keep going. If you haven’t then you should stop.
+
+For having the simplest solution we award Fiona the prize: the latest ThoughtWorks T-Shirt. We’ll be in touch with her.

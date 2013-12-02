@@ -2,7 +2,7 @@
 layout: post
 title: Experiences Changing Programming Languages
 permalink: /issue06/experiences
-byline: John Stojanovski and Nick Thorpe
+byline: Adam Scott
 category: issue06
 authors:
     - name: Adam Scott

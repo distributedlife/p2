@@ -1,0 +1,16 @@
+---
+layout: editorial
+title: A Word From The Editors
+modelDate: Issue 07, November 2013
+permalink: /issue07/index
+lastIssue: /p2/issue06/index/
+cover: issue_7_cover.jpg
+issue: "07"
+key: issue07
+category: index
+---
+Welcome to the final P2 for 2013. 
+
+Enjoy,
+
+Ryan Boucher & Rachel Laycock, Editors in Chief
