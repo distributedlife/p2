@@ -9,8 +9,11 @@ issue: "07"
 key: issue07
 category: index
 ---
-Welcome to the final P2 for 2013. 
+Welcome to the final P2 for 2013. In April this magazine wasn't even a glimmer in my eye. This is the seventh issue we've published since then. It's been hectic at times and yet; fun. I've learnt a lot about writing and editing having to do it day in and day out. 
 
-Enjoy,
+I'm off on a 12 month absence at the end of this month. Next year, P2 is back with Rachel Laycock at the helm. Her support is: Sarah Howe, Rebecca Parsons and a host of ThoughtWorkers, possibly even yourself. If you'd like to write an article for P2 send an email to p2@thoughtworks.com
 
-Ryan Boucher & Rachel Laycock, Editors in Chief
+Thank you for reading and for the great feedback you've given the P2 team over the past seven months. 
+
+
+Ryan Boucher, Editors in Chief

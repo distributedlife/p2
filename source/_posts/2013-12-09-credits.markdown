@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Credits
+title: Credits / About
 subtitle: Who are the P2 Elves?
 permalink: /issue07/credits/
 byline: The P2 Elves

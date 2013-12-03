@@ -44,27 +44,32 @@ Getting to a shared understanding is crucial if I am to be successful in conveyi
 
 Now that I have a decent setup for my point of truth, all that remains is building it into the design. Experience designers need to build in pertinent design cues. Pertinence in this case is based on expectations, understanding, and the designer's confidence in the guarantee of truthfulness of the information.
 
-Some techniques for designing with points of truth
+### Some techniques for designing with points of truth
 
 The key here is being honest and providing the right information and context at the right time.
 
- - **Context** - provide a quick way for your user to find out more about the information. In the case of the fake medicine, there should be a "Phone this free number ### to talk to a human" on the negative response SMS.
- - **Set Expectations** - this is relatively easy as you can use words to explicitly set expectations with the user. E.g. "We will attempt to update your location every 5 seconds", sounds a lot less confident than, "Your location is updated every 5 seconds."
- - **Color** - Use color to indicate the severity of information. Adding a little color can help grab your users attention. When editing a document. I might see a block that is green and says "Saved", when that block turns red I can safely assume without even reading it that my document is no longer saved at it’s current point. Colors are a universal language.
- - **Estimation** - Provide closest value indications. E.g. Your location on this map is accurate to within 5 meters.
- - **Timing** - Give the user a schedule and be honest about "real-time" E.g. Your location is updated every 5 seconds, the last update was 6 seconds ago. 
- - **Honesty** - Don’t over promise and under deliver. Try to strike a good balance between what normally happens and the worst case.
+- **Context** - provide a quick way for your user to find out more about the information. In the case of the fake medicine, there should be a "Phone this free number ### to talk to a human" on the negative response SMS.
 
-Be Proactive - Let users know about problems before they find out. It is possible to detect a dropped internet connection. Alert the user about this and make sure any affected points of truth are adjusted to a offline "mode". E.g. The last location we could find you at was 15mins ago, please reconnect to the internet so that we can find your latest location.
+- **Set expectations** - this is relatively easy as you can use words to explicitly set expectations with the user e.g. "We will attempt to update your location every 5 seconds", sounds a lot less confident than, "Your location is updated every 5 seconds."
+
+- **Visual cues** - Use familiar visual clues such as icons and sometimes color (remember accessibility and different cultural interpretations here) to indicate the severity of information. For example using a big red X when something goes wrong could sufficiently alert the user of a change and if done properly reinforce the trust in that piece of information. The shape of the icon will help the user identify the event across a room or when in a rush.
+
+- **Know your audience** - Attempt to understand the different ways that users could interpret the information and how you have displayed it. For example, in some cultures red is a positive color while in others it represents danger. 
+
+- **Estimation** - Provide closest value indications e.g. Your location on this map is accurate to within 5 meters.
+
+- **Timing** - Give the user a schedule and be honest about "real-time" e.g. Your location is updated every 5 seconds. However if for some reason the update doesn’t complete let the user know e.g. Gmail upon attempting update information and finding the network down will count you down until their next try.
+
+- **Honesty** - Don’t over promise and under deliver. Try to strike a good balance between what normally happens and the worst case.
+
+- **Be proactive** - Let users know about problems before they find out. It is possible to detect a dropped internet connection. Alert the user about this and make sure any affected points of truth are adjusted to a offline "mode" e.g. The last location we could find you at was 15mins ago, please reconnect to the internet so that we can find your latest location.
 
 Good old user-centric design is a key ally here. It leads to a more thorough understanding of the user giving the designer a good idea of the expectations, fears and challenges facing the user. 
 
-After the design is in a testable format, its failures could be found with good user testing and research.
+After the design is in a testable format, its failures can be found with good user testing and research.
 
 ### Now back to that "Single point of truth"
 
 I now see the singularity of truth from a different angle than before. It is, in fact, potentially a very powerful tool.
 
 Using the single point of truth creates a more intimate bond of trust. Having only one place that I can be assured of accurate information, means that it is very possible that the user has no other way to verify the information. This sets a higher bar for that point and the designer should tread with caution. This is what I'd call the point of criticality for the designer. This point should only be used when there is only one possible version of the truth and you are extremely certain that you can deliver on that truth, every time.
-
-
