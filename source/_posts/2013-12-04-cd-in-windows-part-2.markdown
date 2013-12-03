@@ -14,9 +14,10 @@ This is where Continuous Delivery on Windows gets a little harder. It **should**
 
 Taking your packages and copying them on the server is actually quite easy if you are using a packaging mechanism like MSI, for example. You can use Powershell or new kid on the block Octopus to do this.
 
+### PowerShell
+
 >> "PowerShell is a Powerful Language… but it's ugly, really ugly."
 
-### PowerShell
 PowerShell has the ability to copy over your files, restart IIS, start your services and many other remote commands available on your server - given your server supports the remoting command you need. That given refers to earlier than Windows Server 2008. if you working with an older server, forget it! Although PowerShell is a **powerful** language it is ugly, really ugly. It is essentially a procedural scripting language similar to bash, which when used without care can turn into some really ugly and unmaintainable code. You can avoid some of this pain by Test Driving your code with tools like Pester. If you are writing PowerShell, I implore you to keep it as neat and understandable as possible and one of the next ways to do this is to TDD your code. Yes, PowerShell is code. No excuses.
 
 ### Octopus
